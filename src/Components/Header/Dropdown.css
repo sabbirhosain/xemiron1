@@ -1,0 +1,35 @@
+.dropdown_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.dropdown_menu_img {
+  flex-basis: 30%;
+}
+
+.dropdown_menu_text {
+  flex-basis: 65%;
+}
+
+.read_more_link {
+  display: block;
+  color: var(--PrimaryColor);
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.tabs_link {
+  color: black;
+  text-align: left;
+
+  &:hover {
+    color: black;
+  }
+}
+
+.tabs_link.active {
+  color: white !important;
+  background-color: var(--PrimaryBtnColor) !important;
+}
