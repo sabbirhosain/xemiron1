@@ -15,7 +15,7 @@ const Home = () => {
         <div className="hero_bg_img">
           <div className="container">
             <div className="row align-items-center justify-content-between">
-              <div className="col-lg-8">
+              <div className="col-lg-8 col-md-6">
                 <div className="hero_text_box">
                   <div className='hero_category'>
                     <Link to={"#"} className='hero_category_title'>Website design</Link>
@@ -33,7 +33,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-md-6">
                 <div className="hero_img_box">
                   <img src={image} className="img-fluid hero_img" alt="" />
                   <img src={review} className="img-fluid hero_review" alt="" />
