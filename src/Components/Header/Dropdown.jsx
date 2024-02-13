@@ -1,5 +1,10 @@
 import { Link } from "react-router-dom"
-import navimg from "../../assets/header/Image.png"
+import dropdown1 from "../../assets/header/image1.png"
+import dropdown2 from "../../assets/header/image2.png"
+import dropdown3 from "../../assets/header/image3.png"
+import dropdown4 from "../../assets/header/image4.png"
+import dropdown5 from "../../assets/header/image5.png"
+import dropdown6 from "../../assets/header/image6.png"
 import "./Dropdown.css"
 
 const Dropdown = () => {
@@ -19,25 +24,25 @@ const Dropdown = () => {
               <div className="row">
                 <div className="col-lg-6">
                   <div className="dropdown_menu">
-                    <div className="dropdown_menu_img"><img src={navimg} className='img-fluid' alt="" /></div>
+                    <div className="dropdown_menu_img"><img src={dropdown1} className='img-fluid' alt="" /></div>
                     <div className='dropdown_menu_text'>
-                      <h6 className="m-0">Finance Management System</h6>
+                      <h6 className="m-0 fw-semibold">Finance Management System</h6>
                       <small className="my-1 d-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</small>
                       <Link to={""} className="read_more_link">Read More</Link>
                     </div>
                   </div>
                   <div className="dropdown_menu">
-                    <div className="dropdown_menu_img"><img src={navimg} className='img-fluid' alt="" /></div>
+                    <div className="dropdown_menu_img"><img src={dropdown2} className='img-fluid' alt="" /></div>
                     <div className='dropdown_menu_text'>
-                      <h6 className="m-0">Finance Management System</h6>
+                      <h6 className="m-0 fw-semibold">Hospital Management System</h6>
                       <small className="my-1 d-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</small>
                       <Link to={""} className="read_more_link">Read More</Link>
                     </div>
                   </div>
                   <div className="dropdown_menu">
-                    <div className="dropdown_menu_img"><img src={navimg} className='img-fluid' alt="" /></div>
+                    <div className="dropdown_menu_img"><img src={dropdown3} className='img-fluid' alt="" /></div>
                     <div className='dropdown_menu_text'>
-                      <h6 className="m-0">Finance Management System</h6>
+                      <h6 className="m-0 fw-semibold">School Management System</h6>
                       <small className="my-1 d-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</small>
                       <Link to={""} className="read_more_link">Read More</Link>
                     </div>
@@ -45,25 +50,25 @@ const Dropdown = () => {
                 </div>
                 <div className="col-lg-6">
                   <div className="dropdown_menu">
-                    <div className="dropdown_menu_img"><img src={navimg} className='img-fluid' alt="" /></div>
+                    <div className="dropdown_menu_img"><img src={dropdown4} className='img-fluid' alt="" /></div>
                     <div className='dropdown_menu_text'>
-                      <h6 className="m-0">Finance Management System</h6>
+                      <h6 className="m-0 fw-semibold">Shopify Product Variation</h6>
                       <small className="my-1 d-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</small>
                       <Link to={""} className="read_more_link">Read More</Link>
                     </div>
                   </div>
                   <div className="dropdown_menu">
-                    <div className="dropdown_menu_img"><img src={navimg} className='img-fluid' alt="" /></div>
+                    <div className="dropdown_menu_img"><img src={dropdown5} className='img-fluid' alt="" /></div>
                     <div className='dropdown_menu_text'>
-                      <h6 className="m-0">Finance Management System</h6>
+                      <h6 className="m-0 fw-semibold">Ecommerce Product adds</h6>
                       <small className="my-1 d-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</small>
                       <Link to={""} className="read_more_link">Read More</Link>
                     </div>
                   </div>
                   <div className="dropdown_menu">
-                    <div className="dropdown_menu_img"><img src={navimg} className='img-fluid' alt="" /></div>
+                    <div className="dropdown_menu_img"><img src={dropdown6} className='img-fluid' alt="" /></div>
                     <div className='dropdown_menu_text'>
-                      <h6 className="m-0">Finance Management System</h6>
+                      <h6 className="m-0 fw-semibold">Meta Automation System</h6>
                       <small className="my-1 d-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</small>
                       <Link to={""} className="read_more_link">Read More</Link>
                     </div>

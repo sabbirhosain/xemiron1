@@ -5,9 +5,10 @@ import "./Header.css"
 import Dropdown from "./Dropdown";
 
 const Header = () => {
+
   return (
     <>
-      <nav className="navbar navbar-expand-lg">
+      <nav className={`navbar navbar-expand-lg`}>
         <div className="container">
           <a className="navbar-brand" href="#">
             <img src={logo} className="img-fluid" alt="" />
@@ -29,7 +30,7 @@ const Header = () => {
               <li className="nav-item dropdown position-static">
                 <Link to={"/product"} className="nav-link dropdown-toggle" data-bs-auto-close="false" data-bs-toggle="dropdown" aria-expanded="false">Product</Link>
                 <ul className="dropdown-menu dropdown_mega_menu w-100">
-                  <div className="d-sm-none">
+                  <div className="d-lg-none">
                     <li><NavLink to={"/"} className="dropdown-item ps-0">Management</NavLink></li>
                     <li><NavLink to={"/"} className="dropdown-item ps-0">Plugins</NavLink></li>
                     <li><NavLink to={"/"} className="dropdown-item ps-0">API</NavLink></li>

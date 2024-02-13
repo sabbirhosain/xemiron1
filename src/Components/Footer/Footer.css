@@ -1,3 +1,9 @@
+.say_hello {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+/* ====>> Footer <<====== */
 .footer_section {
   padding: 50px 0px 0px 0px;
   background-color: #F4FFE1;

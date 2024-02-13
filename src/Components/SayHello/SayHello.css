@@ -1,0 +1,54 @@
+.sayhello_box_left {
+  background: rgb(62, 73, 46);
+  background: linear-gradient(132deg, rgba(62, 73, 46, 1) 5%, rgba(104, 167, 6, 1) 100%);
+  padding: 40px 30px;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.sayhello_mini_title {
+  color: #F5FAFF;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.sayhello_title {
+  color: #F5FAFF;
+  font-size: 44px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sayhello_email {
+  color: #F5FAFF;
+  font-size: 44px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.sayhello_box_right {
+  background-color: #FCFCFD;
+}
+
+.sayhello_box_right {
+  padding: 10px 30px;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.sayhello_right_mini_title {
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.sayhello_right_title {
+  font-size: 40px;
+  font-weight: 300;
+  padding-top: 30px;
+}

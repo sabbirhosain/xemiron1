@@ -79,3 +79,237 @@
   right: 0%;
   z-index: 999;
 }
+
+
+/* ====>> About US Start <<======= */
+
+.about_us {
+  width: 100%;
+  padding: 100px 0px;
+}
+
+.about_title {
+  /* color: #101828; */
+  color: var(--SecondaryColor);
+  font-size: 48px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.about_paragraph {
+  color: #475467;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* =====>> Share Idea Start <<====== */
+
+.share_idea {
+  margin-bottom: 100px;
+  background: rgb(62, 73, 46);
+  background: linear-gradient(132deg, rgba(62, 73, 46, 1) 5%, rgba(104, 167, 6, 1) 100%);
+  position: relative;
+}
+
+.share_idea_title {
+  color: #FCFCFD;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.share_idea_paragraph {
+  color: #FCFCFD;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 0px;
+}
+
+.share_img {
+  position: absolute;
+  width: 500px;
+  height: 750px;
+  top: -100px;
+  right: 4%;
+  border-radius: 18px
+}
+
+.share_idea_estimate_btn {
+  color: white;
+  padding: 10px 20px;
+  background-color: var(--PrimaryBtnColor);
+  border: 2px solid var(--PrimaryBtnColor);
+  border-radius: 8px;
+}
+
+.share_idea_whatsapp_btn {
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 8px;
+  margin-left: 20px;
+  transition: all 0.3s;
+
+  &:hover {
+    color: white;
+    border: 2px solid var(--PrimaryBtnColor);
+    background-color: var(--PrimaryBtnColor);
+  }
+}
+
+/* =====>> Service Offering <<===== */
+.service_offering {
+  padding: 50px 0px;
+}
+
+.service_offer_box {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.service_offer_text {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.service_offer_paragraph {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* =======>> Discuss Start <<===== */
+.discuss {
+  padding: 50px 0px;
+}
+
+.discuss_img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+}
+
+/* ======>> we works <<====== */
+.we_works {
+  padding-top: 50px;
+}
+
+.works_text_box {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.works_title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.works_paragaraph {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+
+/* =====>> Hospital Management Start <<====*/
+
+.hospital_management {
+  margin: 100px 0px;
+}
+
+.hospital_text_box {
+  width: 110%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 48px 32px 48px 32px;
+  background-color: rgb(245, 245, 245);
+}
+
+.hospital_mini_title {
+  color: var(--SecondaryColor);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.hospital_title {
+  color: var(--SecondaryColor);
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hospital_paragraph {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.hospital_icon_box {
+  color: var(--PrimaryBtnColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: 2px solid var(--PrimaryBtnColor);
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.hospital_count {
+  display: block;
+  color: var(--PrimaryBtnColor);
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.hospital_count_title {
+  color: var(--SecondaryColor);
+  display: block;
+  font-size: 32px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+
+/* =====>> Client Testimonials <<===== */
+.client_testimonial {
+  background-color: #F4FFE1;
+  padding: 50px 0px;
+  margin-bottom: 50px;
+}
+
+.testimonial_title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.testimonial_paragaraph {
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+/* ======>> Company Brands <<===== */
+.company_brand {
+  padding-bottom: 50px;
+}
+
+/* =====>> Frequently <<=====*/
+.frequently {
+  padding: 50px 0px;
+}
+
+/* ======>> Explore Blogs <<====== */
+
+.explore_blogs {
+  padding: 50px 0px;
+}
+
+.explore_blogs_title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.explore_blogs_paragraph {
+  font-size: 18px;
+  font-weight: 400;
+}

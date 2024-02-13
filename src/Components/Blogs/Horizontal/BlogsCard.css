@@ -27,15 +27,12 @@
   font-family: var(--PrimaryFonts);
   font-size: 16px;
   font-weight: 400;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
 }
 
 .blogs_card_btn {
   color: var(--PrimaryBtnColor);
   border: 1px solid var(--PrimaryBtnColor);
-  padding: 12px 28px;
+  padding: 10px 15px;
   border-radius: 8px;
 }
 

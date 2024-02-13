@@ -42,3 +42,7 @@ button {
   outline: none;
   background-color: transparent;
 }
+
+.active{
+  color: var(--PrimaryColor) !important;
+}
