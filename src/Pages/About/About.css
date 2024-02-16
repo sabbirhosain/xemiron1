@@ -1,0 +1,15 @@
+.about_bg_img {
+  height: 320px;
+  border-radius: 18px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../../assets/about/abouts.jpg);
+}
+
+.about_bd_textbox {
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

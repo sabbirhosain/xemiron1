@@ -10,7 +10,6 @@ import { Helmet } from 'react-helmet'
 import { IoLogoWhatsapp } from "react-icons/io";
 import { HiOutlineUserGroup } from "react-icons/hi";
 import { Link } from 'react-router-dom'
-import Service from '../../Components/Services/Service'
 import { servesOffer, works } from '../../Data/Data'
 import "./Home.css"
 import Work from '../../Components/Work/Work'
@@ -18,6 +17,7 @@ import Testimonial from '../../Components/Testimonial/Testimonial'
 import CompanyBrand from '../../Components/CompanyBrands/CompanyBrand'
 import Frequently from '../../Components/Frequently/Frequently'
 import { MdArrowOutward } from 'react-icons/md'
+import ServiceOffer from '../../Components/ServicesOffer/ServiceOffer'
 
 const Home = () => {
   return (
@@ -114,8 +114,8 @@ const Home = () => {
           <div className="row">
             {
               servesOffer.map((item, index) => (
-                <div className="col-md-6 col-lg-3">
-                  <Service serviceList={item} key={index} />
+                <div className="col-6 col-sm-6 col-md-6 col-lg-3" key={index}>
+                  <ServiceOffer serviceOfferList={item} />
                 </div>
               ))
             }
@@ -140,8 +140,8 @@ const Home = () => {
           <div className="row">
             {
               works.map((item, index) => (
-                <div className="col-md-4 col-lg-4">
-                  <Work workList={item} key={index} />
+                <div className="col-md-4 col-lg-4" key={index}>
+                  <Work workList={item} />
                 </div>
               ))
             }
@@ -192,7 +192,18 @@ const Home = () => {
 
       <section className='frequently'>
         <div className="container">
-          <Frequently />
+          <div className="row">
+            <div className="col-lg-6 col-md-6">
+              <div>
+                <h1 className='frequently_title'>Frequently</h1>
+                <p className='frequently_paragraph'>We have compiled a list of frequently asked questions to help you quickly find the information you need.</p>
+                <Link to={"#"} className='blogs_card_btn'>Contact Us</Link>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6">
+              <Frequently />
+            </div>
+          </div>
         </div>
       </section>
 

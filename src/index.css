@@ -4,6 +4,7 @@
   --PrimaryFonts: 'Inter', sans-serif;
   --PrimaryColor: #68A706;
   --SecondaryColor: #223039;
+  --ParagraphColor: #475467;
   --PrimaryBtnColor: #68A706;
 }
 
@@ -43,6 +44,36 @@ button {
   background-color: transparent;
 }
 
-.active{
-  color: var(--PrimaryColor) !important;
+.form-select:focus {
+  box-shadow: none;
+  cursor: pointer;
 }
+
+/* Dasktop Large */
+@media only screen and (min-width: 1201px) {
+  .section_title {
+    color: var(--SecondaryColor);
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--PrimaryFonts);
+  }
+
+  .section_paragraph {
+    color: var(--ParagraphColor);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--PrimaryFonts);
+  }
+}
+
+/* Dasktop */
+/* @media only screen and (max-width: 1200px) {} */
+
+/* Laptop */
+/* @media only screen and (max-width: 992px) {} */
+
+/* Tablet */
+/* @media only screen and (max-width: 768px) {} */
+
+/* Mobile */
+/* @media only screen and (max-width: 576px) {} */

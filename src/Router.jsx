@@ -1,5 +1,5 @@
 import Layout from "./Layout/Layout.jsx"
-import { About, Contact, Home, NotFound, Service } from "./Pages/Pages.jsx"
+import { About, BlogDetails, Blogs, Contact, Home, NotFound, Service } from "./Pages/Pages.jsx"
 import { createBrowserRouter } from "react-router-dom"
 
 const Router = createBrowserRouter([{
@@ -25,6 +25,14 @@ const Router = createBrowserRouter([{
     {
       path: "contact",
       element: <Contact />,
+    },
+    {
+      path: "blogs",
+      element: <Blogs />,
+    },
+    {
+      path: "blog-details/:id",
+      element: <BlogDetails />,
     },
     {
       path: "*",

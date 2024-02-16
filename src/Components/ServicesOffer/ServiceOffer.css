@@ -1,24 +1,24 @@
-.service_card {
+.service_offer_card {
   position: relative;
 
-  &:hover .service_overlay {
+  &:hover .service_offer_overlay {
     visibility: visible;
   }
 
-  &:hover .service_btn_icon {
+  &:hover .service_offer_btn_icon {
     opacity: 1;
   }
 
-  &:hover .service_btn {
+  &:hover .service_offer_btn {
     background-color: var(--PrimaryBtnColor);
   }
 }
 
-.service_img {
+.service_offer_img {
   position: relative;
 }
 
-.service_btn {
+.service_offer_btn {
   color: white;
   display: flex;
   align-items: center;
@@ -35,7 +35,7 @@
   cursor: pointer;
 }
 
-.service_btn_icon {
+.service_offer_btn_icon {
   margin-left: 10px;
   display: block;
   color: white;
@@ -45,7 +45,7 @@
   cursor: pointer;
 }
 
-.service_overlay {
+.service_offer_overlay {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -62,7 +62,7 @@
   cursor: pointer;
 }
 
-.service_overlay_icon {
+.service_offer_overlay_icon {
   font-size: 20px;
   color: white;
   display: block;

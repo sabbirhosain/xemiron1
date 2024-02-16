@@ -1,9 +1,8 @@
 .sayhello_box_left {
   background: rgb(62, 73, 46);
-  background: linear-gradient(132deg, rgba(62, 73, 46, 1) 5%, rgba(104, 167, 6, 1) 100%);
   padding: 40px 30px;
-  border-radius: 8px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 18px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(247deg, rgba(30, 42, 50, 0.20) 0.02%, rgba(30, 42, 50, 0.20) 98.6%), linear-gradient(112deg, #354221 -15.84%, #68A706 60.63%, #3A4F19 127.7%);
 }
 
 .sayhello_mini_title {

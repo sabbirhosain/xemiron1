@@ -1,0 +1,35 @@
+.service_card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  transition: all 0.3s;
+
+  &:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+}
+
+.service_card_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50px;
+  border: 2px solid #344054;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: var(--PrimaryBtnColor);
+    border: var(--PrimaryBtnColor);
+  }
+}
+
+.service_card_icon {
+  color: #1D2939;
+  font-size: 20px;
+  font-weight: 400;
+  transition: all 0.3s;
+}
+
+.service_card_link:hover .service_card_icon {
+  color: white;
+}
