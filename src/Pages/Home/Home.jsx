@@ -15,7 +15,7 @@ import "./Home.css"
 import Work from '../../Components/Work/Work'
 import Testimonial from '../../Components/Testimonial/Testimonial'
 import CompanyBrand from '../../Components/CompanyBrands/CompanyBrand'
-import Frequently from '../../Components/Frequently/Frequently'
+import Faq from '../../Components/Faq/Faq'
 import { MdArrowOutward } from 'react-icons/md'
 import ServiceOffer from '../../Components/ServicesOffer/ServiceOffer'
 
@@ -28,7 +28,7 @@ const Home = () => {
         <div className="hero_bg_img">
           <div className="container">
             <div className="row align-items-center justify-content-between">
-              <div className="col-lg-8 col-md-6">
+              <div className="col-lg-8 col-xl-6 col-md-6">
                 <div className="hero_text_box">
                   <div className='hero_category'>
                     <Link to={"#"} className='hero_category_title'>Website design</Link>
@@ -46,7 +46,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6">
+              <div className="col-lg-4 col-xl-6 col-md-6">
                 <div className="hero_img_box">
                   <img src={image} className="img-fluid hero_img" alt="" />
                   <img src={review} className="img-fluid hero_review" alt="" />
@@ -151,7 +151,7 @@ const Home = () => {
 
       <section className="hospital_management">
         <div className="container">
-          <div className="row">
+          <div className="row align-items-center ">
             <div className="col-md-6 col-lg-6">
               <div className='hospital_text_box'>
                 <h5 className='hospital_mini_title'>Check out our</h5>
@@ -166,9 +166,7 @@ const Home = () => {
               </div>
             </div>
             <div className="col-md-6 col-lg-6">
-              <div>
-                <img src={hospitalManagement} className="img-fluid" alt="" />
-              </div>
+              <div><img src={hospitalManagement} className="img-fluid" alt="" /></div>
             </div>
           </div>
         </div>
@@ -201,7 +199,7 @@ const Home = () => {
               </div>
             </div>
             <div className="col-lg-6 col-md-6">
-              <Frequently />
+              <Faq />
             </div>
           </div>
         </div>

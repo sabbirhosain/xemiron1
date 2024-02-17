@@ -1,0 +1,9 @@
+/* .breadcrumb_box {
+  display: flex;
+  align-items: center;
+  height: 90px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  content: var(--bs-breadcrumb-divider, ">");
+} */

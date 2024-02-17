@@ -1,6 +1,6 @@
-import "./Frequently.css"
+import "./Faq.css"
 
-const Frequently = () => {
+const Faq = () => {
   return (
     <>
       <div className="accordion" id="accordionExample">
@@ -69,4 +69,4 @@ const Frequently = () => {
   )
 }
 
-export default Frequently
+export default Faq

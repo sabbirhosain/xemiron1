@@ -31,16 +31,16 @@
 }
 
 .newsletter_input {
-  width: 70%;
+  width: 73%;
   border: 1px solid #D0D5DD;
   border-radius: 50px;
-  padding: 6px 20px;
+  padding: 12px 24px;
 }
 
 .newsletter_btn {
   color: white;
   background-color: var(--PrimaryBtnColor);
-  padding: 6px 20px;
+  padding: 12px 24px;
   border-radius: 50px;
   font-size: 18px;
   font-weight: 400;
@@ -98,12 +98,87 @@
 
 .footer_category_link {
   color: #475467;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
 }
 
 .socail_link {
   color: #475467;
+  font-size: 18px;
   padding: 0px 5px;
 }
 
+.copyright_text {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Laptop */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .newsletter_input {
+    width: 70%;
+    padding: 8px 20px;
+  }
+
+  .newsletter_btn {
+    padding: 8px 20px;
+  }
+
+  .copyright_text {
+    font-size: 16px;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 600px) and (max-width: 768px) {}
+
+/* Mobile */
+@media only screen and (max-width: 576px) {
+  .say_hello {
+    margin-bottom: 50px;
+  }
+
+  /* ===>> Footer Responsive Start <==== */
+
+  .footer_img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .newsletter_title {
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+
+  .newsletter_input {
+    padding: 8px 24px;
+  }
+
+  .newsletter_btn {
+    padding: 8px 24px;
+    font-size: 14px;
+  }
+
+  .footer_paragraph {
+    font-size: 14px;
+    font-family: 400;
+  }
+
+  .navigation_title {
+    font-size: 16px;
+  }
+
+  .footer_category {
+    padding: 0px 5px;
+  }
+
+  .footer_category_link {
+    font-size: 14px;
+  }
+
+  .copyright_text {
+    font-size: 16px;
+  }
+}

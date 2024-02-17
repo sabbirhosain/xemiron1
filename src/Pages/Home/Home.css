@@ -17,6 +17,9 @@
 
 .hero_category {
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .hero_category_title {
