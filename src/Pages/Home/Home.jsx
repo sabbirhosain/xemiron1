@@ -41,7 +41,7 @@ const Home = () => {
                   <h1 className='hero_title'>Need to build a website or Custom Web Application⁉️</h1>
                   <p className='hero_paragraph'>At Xemiron IT Solutions, we specialize in business digitalization. Whether you’re launching a new business or already own a company and need a website, mobile app, or custom management software, we can help. Our team comprises designers, developers, digital marketing experts, and specialists from various IT fields.</p>
                 </div>
-                <div>
+                <div className="pt-lg-3">
                   <Link to={"#"} className='hero_getstart_btn'>Get Start Now</Link>
                   <Link to={"#"} className='hero_explore_btn'>Explore More</Link>
                 </div>
@@ -59,8 +59,8 @@ const Home = () => {
 
       <section className="about_us">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-md-6 col-lg-6">
+          <div className="row align-items-lg-center">
+            <div className="col-md-6 col-lg-6 order-2 order-lg-1">
               <div>
                 <h1 className="about_title">Xemiron IT Solutions your Trusted IT Solutions provider.</h1>
                 <p className="about_paragraph">Welcome to Xemiron, where we turn ideas into reality. As a team of dedicated professionals, we specialize in creating digital solutions for businesses. Whether you’re looking for a website, mobile app, or custom software, we’ve got the expertise to bring your vision to life.</p>
@@ -72,7 +72,7 @@ const Home = () => {
                 <p className="about_paragraph">Thank you for considering Xemiron IT Solutions for your digital needs. We look forward to the opportunity of working together.</p>
               </div>
             </div>
-            <div className="col-md-6 col-lg-6">
+            <div className="col-md-6 col-lg-6 order-1 order-lg-2">
               <div>
                 <img src={about} className="img-fluid" alt="" />
               </div>
