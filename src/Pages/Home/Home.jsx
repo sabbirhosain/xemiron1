@@ -90,7 +90,7 @@ const Home = () => {
 
                 <p className="share_idea_paragraph">We dont promise it we do it! Start with us with a simple project and you will start realizing our experience, creativity, capibility, concestency and honesty! We are not what we say we are what we do!</p>
 
-                <div className="mt-4 d-flex">
+                <div className="mt-4 d-lg-flex">
                   <Link to={"#"} className="share_idea_estimate_btn">Get Free Estimate</Link>
                   <Link to={"#"} className="share_idea_whatsapp_btn">WhatsApp Now &emsp;<span><IoLogoWhatsapp /></span></Link>
                 </div>
