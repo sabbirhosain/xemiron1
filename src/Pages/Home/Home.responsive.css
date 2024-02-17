@@ -1,0 +1,64 @@
+/* Mobile */
+@media only screen and (max-width: 576px) {
+
+  /* =====>> Hero Section <<==== */
+  .hero_bg_img {
+    height: 185vh;
+    align-items: start;
+  }
+
+  .hero_category {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .hero_category_title {
+    font-size: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+
+  .hero_title {
+    font-size: 24px;
+    margin-bottom: 0px;
+  }
+
+  .hero_paragraph {
+    font-size: 14px;
+  }
+
+  .hero_explore_btn,
+  .hero_getstart_btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    font-style: 14px;
+  }
+
+  .hero_explore_btn {
+    margin-top: 20px;
+  }
+
+
+
+
+
+
+  /* ===>> Blogs Responsive Start <<===== */
+  .explore_blogs_title {
+    font-size: 24px;
+  }
+
+  .explore_blogs_paragraph {
+    font-size: 14px;
+  }
+
+  .blogs_more_btn {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 32px;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,22 @@
+.blogs_card_img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* .blogs_card_btn {
+  text-align: center;
+  display: block;
+  width: 100%;
+} */
+
+
+/* Mobile */
+@media only screen and (max-width: 576px) {
+  .blogs_card_btn {
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+}

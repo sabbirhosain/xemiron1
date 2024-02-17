@@ -1,11 +1,11 @@
 import { MdArrowOutward } from "react-icons/md"
 import Blogs1 from "../../../assets/Blogs1.png"
-import "./BlogsCard.css"
+import "./VBlogsCard.css"
 import { Link } from "react-router-dom"
-const BlogsCard = () => {
+const VBlogsCard = () => {
   return (
     <>
-      <div class="card mb-4">
+      <div class="card mb-4 pb-2">
         <div class="card-body">
           <img src={Blogs1} class="blogs_card_img" alt="..." />
           <h5 className="blogs_title mt-3">Advanced Python Web Development</h5>
@@ -17,4 +17,4 @@ const BlogsCard = () => {
   )
 }
 
-export default BlogsCard
+export default VBlogsCard

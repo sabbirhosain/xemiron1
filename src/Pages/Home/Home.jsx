@@ -1,5 +1,6 @@
 // components
-import BlogsCard from '../../Components/Blogs/Horizontal/BlogsCard'
+import HBlogsCard from "../../Components/Blogs/Horizontal/HBlogsCard"
+import VBlogsCard from "../../Components/Blogs/Vertical/VBlogsCard"
 import image from "../../assets/home/image.png"
 import review from "../../assets/home/Review.png"
 import about from "../../assets/About-us.png"
@@ -12,6 +13,7 @@ import { HiOutlineUserGroup } from "react-icons/hi";
 import { Link } from 'react-router-dom'
 import { servesOffer, works } from '../../Data/Data'
 import "./Home.css"
+import "./Home.responsive.css"
 import Work from '../../Components/Work/Work'
 import Testimonial from '../../Components/Testimonial/Testimonial'
 import CompanyBrand from '../../Components/CompanyBrands/CompanyBrand'
@@ -27,26 +29,24 @@ const Home = () => {
       <section className='hero_section'>
         <div className="hero_bg_img">
           <div className="container">
-            <div className="row align-items-center justify-content-between">
-              <div className="col-lg-8 col-xl-6 col-md-6">
-                <div className="hero_text_box">
-                  <div className='hero_category'>
-                    <Link to={"#"} className='hero_category_title'>Website design</Link>
-                    <Link to={"#"} className='hero_category_title'>Custom Web Application</Link>
-                    <Link to={"#"} className='hero_category_title'>Digital Marketing</Link>
-                    <Link to={"#"} className='hero_category_title'>And much more</Link>
-                  </div>
-                  <div>
-                    <h1 className='hero_title'>Need to build a website or Custom Web Application⁉️</h1>
-                    <p className='hero_paragraph'>At Xemiron IT Solutions, we specialize in business digitalization. Whether you’re launching a new business or already own a company and need a website, mobile app, or custom management software, we can help. Our team comprises designers, developers, digital marketing experts, and specialists from various IT fields.</p>
-                  </div>
-                  <div>
-                    <Link to={"#"} className='hero_getstart_btn'>Get Start Now</Link>
-                    <Link to={"#"} className='hero_explore_btn'>Explore More</Link>
-                  </div>
+            <div className="row align-items-center">
+              <div className="col-12 col-lg-8 col-xxl-7 order-2 order-lg-1">
+                <div className='hero_category'>
+                  <Link to={"#"} className='hero_category_title'>Website design</Link>
+                  <Link to={"#"} className='hero_category_title'>Custom Web Application</Link>
+                  <Link to={"#"} className='hero_category_title'>Digital Marketing</Link>
+                  <Link to={"#"} className='hero_category_title'>And much more</Link>
+                </div>
+                <div>
+                  <h1 className='hero_title'>Need to build a website or Custom Web Application⁉️</h1>
+                  <p className='hero_paragraph'>At Xemiron IT Solutions, we specialize in business digitalization. Whether you’re launching a new business or already own a company and need a website, mobile app, or custom management software, we can help. Our team comprises designers, developers, digital marketing experts, and specialists from various IT fields.</p>
+                </div>
+                <div>
+                  <Link to={"#"} className='hero_getstart_btn'>Get Start Now</Link>
+                  <Link to={"#"} className='hero_explore_btn'>Explore More</Link>
                 </div>
               </div>
-              <div className="col-lg-4 col-xl-6 col-md-6">
+              <div className="col-12 col-lg-4 col-xxl-4 order-1 order-lg-2 ">
                 <div className="hero_img_box">
                   <img src={image} className="img-fluid hero_img" alt="" />
                   <img src={review} className="img-fluid hero_review" alt="" />
@@ -207,18 +207,32 @@ const Home = () => {
 
       <section className='explore_blogs'>
         <div className="container">
-          <div className='pb-4 text-center'>
+          <div className='pb-5 text-center'>
             <h1 className='explore_blogs_title'>Explore Our Blogs</h1>
             <p className='explore_blogs_paragraph'>Read our Insightful blogs posted everyday</p>
           </div>
-          <div className="row">
-            <BlogsCard />
-            <BlogsCard />
-            <BlogsCard />
-            <BlogsCard />
+          <div className="row d-none d-lg-flex">
+            <HBlogsCard />
+            <HBlogsCard />
+            <HBlogsCard />
+            <HBlogsCard />
           </div>
-          <div className='text-center mt-5'>
-            <Link to={"#"} className='blogs_card_btn'>Read More &ensp; <MdArrowOutward /></Link>
+          <div className="row d-lg-none">
+            <div className="col-md-6 col-sm-6">
+              <VBlogsCard />
+            </div>
+            <div className="col-md-6 col-sm-6">
+              <VBlogsCard />
+            </div>
+            <div className="col-md-6 col-sm-6">
+              <VBlogsCard />
+            </div>
+            <div className="col-md-6 col-sm-6">
+              <VBlogsCard />
+            </div>
+          </div>
+          <div className='text-center mt-md-4'>
+            <Link to={"#"} className='blogs_more_btn'>Read More &ensp; <MdArrowOutward /></Link>
           </div>
         </div>
       </section>

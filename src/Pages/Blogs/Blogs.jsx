@@ -1,5 +1,5 @@
 import React from 'react'
-import BlogsCard from '../../Components/Blogs/Vertical/BlogsCard'
+import VBlogsCard from '../../Components/Blogs/Vertical/VBlogsCard'
 import { GrLinkNext, GrLinkPrevious } from "react-icons/gr";
 
 const Blogs = () => {
@@ -27,36 +27,36 @@ const Blogs = () => {
           <div className="tab-content mt-5" id="nav-tabContent">
             <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabIndex="0">
               <div className="row">
-                <div className="col-lg-4"><BlogsCard /></div>
-                <div className="col-lg-4"><BlogsCard /></div>
-                <div className="col-lg-4"><BlogsCard /></div>
-                <div className="col-lg-4"><BlogsCard /></div>
-                <div className="col-lg-4"><BlogsCard /></div>
-                <div className="col-lg-4"><BlogsCard /></div>
+                <div className="col-lg-4"><VBlogsCard /></div>
+                <div className="col-lg-4"><VBlogsCard /></div>
+                <div className="col-lg-4"><VBlogsCard /></div>
+                <div className="col-lg-4"><VBlogsCard /></div>
+                <div className="col-lg-4"><VBlogsCard /></div>
+                <div className="col-lg-4"><VBlogsCard /></div>
               </div>
             </div>
             <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabIndex="0">
               <div className="row">
-                <div className="col-lg-4"><BlogsCard /></div>
-                <div className="col-lg-4"><BlogsCard /></div>
-                <div className="col-lg-4"><BlogsCard /></div>
-                <div className="col-lg-4"><BlogsCard /></div>
+                <div className="col-lg-4"><VBlogsCard /></div>
+                <div className="col-lg-4"><VBlogsCard /></div>
+                <div className="col-lg-4"><VBlogsCard /></div>
+                <div className="col-lg-4"><VBlogsCard /></div>
               </div>
             </div>
             <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabIndex="0">
               <div className="row">
-                <div className="col-lg-4"><BlogsCard /></div>
-                <div className="col-lg-4"><BlogsCard /></div>
-                <div className="col-lg-4"><BlogsCard /></div>
+                <div className="col-lg-4"><VBlogsCard /></div>
+                <div className="col-lg-4"><VBlogsCard /></div>
+                <div className="col-lg-4"><VBlogsCard /></div>
               </div>
             </div>
             <div className="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabIndex="0">
               <div className="row">
-                <div className="col-lg-4"><BlogsCard /></div>
-                <div className="col-lg-4"><BlogsCard /></div>
-                <div className="col-lg-4"><BlogsCard /></div>
-                <div className="col-lg-4"><BlogsCard /></div>
-                <div className="col-lg-4"><BlogsCard /></div>
+                <div className="col-lg-4"><VBlogsCard /></div>
+                <div className="col-lg-4"><VBlogsCard /></div>
+                <div className="col-lg-4"><VBlogsCard /></div>
+                <div className="col-lg-4"><VBlogsCard /></div>
+                <div className="col-lg-4"><VBlogsCard /></div>
               </div>
             </div>
           </div>

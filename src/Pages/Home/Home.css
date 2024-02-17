@@ -5,15 +5,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(../../assets/home/Background.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.hero_text_box {
-  height: 110vh;
-  display: flex;
-  align-items: start;
-  justify-content: center;
-  flex-direction: column;
-}
 
 .hero_category {
   margin-bottom: 30px;
@@ -34,7 +30,7 @@
 
 .hero_title {
   color: #FCFCFD;
-  font-size: 66px;
+  font-size: 72px;
   font-weight: 600;
 }
 
@@ -47,7 +43,7 @@
 
 .hero_getstart_btn {
   color: white;
-  padding: 10px 20px;
+  padding: 16px 32px;
   background-color: var(--PrimaryBtnColor);
   border: 2px solid var(--PrimaryBtnColor);
   border-radius: 8px;
@@ -55,7 +51,7 @@
 
 .hero_explore_btn {
   color: white;
-  padding: 10px 20px;
+  padding: 16px 32px;
   border: 2px solid white;
   border-radius: 8px;
   margin-left: 20px;
@@ -74,6 +70,8 @@
 
 .hero_img {
   position: relative;
+  /* width: 400px;
+  height: auto; */
 }
 
 .hero_review {
@@ -313,7 +311,7 @@
 /* ======>> Explore Blogs <<====== */
 
 .explore_blogs {
-  padding: 50px 0px;
+  margin: 50px 0px;
 }
 
 .explore_blogs_title {
@@ -324,4 +322,19 @@
 .explore_blogs_paragraph {
   font-size: 18px;
   font-weight: 400;
+}
+
+.blogs_more_btn {
+  color: var(--PrimaryBtnColor);
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 2px solid var(--PrimaryBtnColor);
+  padding: 16px 32px;
+  transition: all 0.3s;
+
+  &:hover {
+    color: white;
+    background-color: var(--PrimaryBtnColor);
+  }
 }

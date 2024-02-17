@@ -1,7 +1,6 @@
 .blogs_card_box {
   padding: 20px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
   flex-wrap: nowrap;
   height: auto;
@@ -30,10 +29,17 @@
 }
 
 .blogs_card_btn {
+  display: inline-block;
   color: var(--PrimaryBtnColor);
   border: 1px solid var(--PrimaryBtnColor);
-  padding: 10px 15px;
+  padding: 12px 28px;
   border-radius: 8px;
+  transition: all 0.3s;
+
+  &:hover {
+    color: white;
+    background-color: var(--PrimaryBtnColor);
+  }
 }
 
 
