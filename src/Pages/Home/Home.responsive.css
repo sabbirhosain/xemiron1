@@ -49,7 +49,99 @@
     font-size: 24px;
   }
 
+  .about_paragraph {
+    font-size: 14px;
+  }
 
+  /* =====>> Share Idea Start <<====== */
+  .share_idea_title {
+    font-size: 24px;
+  }
+
+  .share_idea_paragraph {
+    font-size: 14px;
+
+  }
+
+  /* =====>> Service Offering <<===== */
+  .service_offering {
+    padding: 0px 0px;
+  }
+
+
+  .service_offer_text {
+    font-size: 24px;
+  }
+
+  .service_offer_paragraph {
+    font-size: 14px;
+  }
+
+  /* ======>> we works <<====== */
+  .we_works {
+    padding-top: 0px;
+  }
+
+  .works_title {
+    font-size: 24px;
+  }
+
+  .works_paragaraph {
+    font-size: 14px;
+  }
+
+  /* =====>> Hospital Management Start <<====*/
+
+  .hospital_management {
+    margin: 0px 0px;
+  }
+
+  .hospital_mini_title {
+    color: var(--SecondaryColor);
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .hospital_title {
+    font-size: 24px;
+  }
+
+  .hospital_paragraph {
+    font-size: 14px;
+  }
+
+  /* =====>> Client Testimonials <<===== */
+  .client_testimonial {
+    padding: 0px 0px;
+    margin-bottom: 0px;
+  }
+
+  .testimonial_title {
+    font-size: 24px;
+  }
+
+  .testimonial_paragaraph {
+    font-size: 14px;
+  }
+
+  /* ======>> Company Brands <<===== */
+  .company_brand {
+    padding-bottom: 0px;
+  }
+
+  /* =====>> Frequently <<=====*/
+  .frequently {
+    padding: 0px 0px;
+  }
+
+  .frequently_title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .frequently_paragraph {
+    font-size: 14px;
+  }
 
   /* ===>> Blogs Responsive Start <<===== */
   .explore_blogs_title {
