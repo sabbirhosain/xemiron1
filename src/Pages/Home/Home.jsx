@@ -4,7 +4,7 @@ import VBlogsCard from "../../Components/Blogs/Vertical/VBlogsCard"
 import image from "../../assets/home/image.png"
 import review from "../../assets/home/Review.png"
 import about from "../../assets/About-us.png"
-import shareIdea from "../../assets/img1.png"
+import shareIdea from "../../assets/shear.svg"
 import discuss from "../../assets/duscuss.png"
 import hospitalManagement from "../../assets/hospital-management.png"
 import { Helmet } from 'react-helmet'
@@ -83,7 +83,7 @@ const Home = () => {
 
       <section className="share_idea">
         <div className="container">
-          <div className="row align-items-center justify-content-between py-5">
+          <div className="row align-items-lg-center justify-content-lg-between py-5">
             <div className="col-md-6 col-lg-7">
               <div>
                 <h1 className="share_idea_title">Just share your idea! Let us take it from there for you until the finish line, and you can simply relax and observe 🙂</h1>
@@ -151,22 +151,26 @@ const Home = () => {
 
       <section className="hospital_management">
         <div className="container">
-          <div className="row align-items-center ">
-            <div className="col-md-6 col-lg-6">
-              <div className='hospital_text_box'>
-                <h5 className='hospital_mini_title'>Check out our</h5>
-                <h1 className='hospital_title'>Hospital Management System</h1>
-                <p className='hospital_paragraph'>The Hospital Management System is a comprehensive and intuitive software solution designed to empower healthcare institutions with efficient, streamlined, and intelligent management of their operations. This user-friendly dashboard serves as the central command center, providing real-time insights, analytics.</p>
+          <div className="hospital_ccontainer">
+            <div className="row align-items-center" style={{ hiding: "80vh" }}>
+              <div className="col-md-6 col-lg-6">
+                <div className='hospital_text_box'>
+                  <h5 className='hospital_mini_title'>Check out our</h5>
+                  <h1 className='hospital_title'>Hospital Management System</h1>
+                  <p className='hospital_paragraph'>The Hospital Management System is a comprehensive and intuitive software solution designed to empower healthcare institutions with efficient, streamlined, and intelligent management of their operations. This user-friendly dashboard serves as the central command center, providing real-time insights, analytics.</p>
 
-                <div className='d-flex align-items-center'>
-                  <span className='hospital_icon_box'><HiOutlineUserGroup /></span>
-                  <span className='hospital_count'>345+</span>
-                  <span className='hospital_count_title'>Active User</span>
+                  <div className='d-flex align-items-center'>
+                    <span className='hospital_icon_box'><HiOutlineUserGroup /></span>
+                    <span className='hospital_count'>345+</span>
+                    <span className='hospital_count_title'>Active User</span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-md-6 col-lg-6">
-              <div><img src={hospitalManagement} className="img-fluid" alt="" /></div>
+              <div className="col-md-6 col-lg-6">
+                <div className="text-end">
+                  <img src={hospitalManagement} className="img-fluid" alt="" />
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@ import { useRef } from "react";
 import Slider from "react-slick";
 import TestimonialCard from "./TestimonialCard";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import { Link } from "react-router-dom";
+import "./Testimonial.css"
 
 // coustome next arrow
 const SampleNextArrow = (props) => {
@@ -24,7 +24,9 @@ const Testimonial = () => {
   const slider = useRef(null);
 
   const settings = {
-    dots: false,
+    centerMode: true,
+    // centerPadding: "100px",
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -45,7 +47,7 @@ const Testimonial = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 2,
           initialSlide: 2
         }
@@ -63,9 +65,6 @@ const Testimonial = () => {
     <>
       <div className="slider-container">
         <Slider ref={slider} {...settings}>
-          <TestimonialCard />
-          <TestimonialCard />
-          <TestimonialCard />
           <TestimonialCard />
           <TestimonialCard />
           <TestimonialCard />
