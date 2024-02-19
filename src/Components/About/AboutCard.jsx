@@ -2,7 +2,7 @@ const AboutCard = ({ xemironApartList }) => {
   return (
     <>
       <div className="col-sm-6">
-        <div className="card">
+        <div className="card mb-4">
           <div className="card-body d-flex align-items-start">
             <img src={xemironApartList.xemironIcon} className="" alt="" />
             <div>

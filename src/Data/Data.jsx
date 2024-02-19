@@ -81,37 +81,37 @@ export const serviceProvide = [
     id: 1,
     serviceIcon: serviceIcon1,
     serviceTitle: "Website Development",
-    serviceDescription: "Lorem ipsum dolor sit amet, consectetur adipis Lorem ipsum dolor sit amet, consectetur adipis",
+    serviceDescription: "Lorem ipsum dolor sit amet, consectetur adipis Lorem ipsum dolor consectetur adipis Lorem ipsum dolor sit amet, consectetur adipis",
   },
   {
     id: 2,
     serviceIcon: serviceIcon2,
     serviceTitle: "Web Design",
-    serviceDescription: "Lorem ipsum dolor sit amet, consectetur adipisLorem ipsum dolor sit amet, consectetur adipis",
+    serviceDescription: "Lorem ipsum dolor sit amet, consectetur adipisLorem ipsum dolor sitconsectetur adipis Lorem ipsum dolor amet, consectetur adipis",
   },
   {
     id: 3,
     serviceIcon: serviceIcon3,
     serviceTitle: "Maintenance & Support",
-    serviceDescription: "Lorem ipsum dolor sit amet, consectetur adipisLorem ipsum dolor sit amet, consectetur adipis",
+    serviceDescription: "Lorem ipsum dolor sit amet, consectetur adipisLorem ipsum dolor sit amet, consectetur adipis Lorem ipsum dolor consectetur adipis",
   },
   {
     id: 4,
     serviceIcon: serviceIcon4,
     serviceTitle: "API Integrations",
-    serviceDescription: "Lorem ipsum dolor sit amet, consectetur adipis Lorem ipsum dolor sit amet, consectetur adipis",
+    serviceDescription: "Lorem ipsum dolor sit amet, consectetur adipis Lorem ipsum dolor sit amet, consectetur adipis Lorem ipsum dolor consectetur adipis",
   },
   {
     id: 5,
     serviceIcon: serviceIcon5,
     serviceTitle: "Cyber Security",
-    serviceDescription: "Lorem ipsum dolor sit amet, consectetur adipis Lorem ipsum dolor sit amet, consectetur adipis",
+    serviceDescription: "Lorem ipsum dolor sit amet, consectetur adipis Lorem ipsum dolor sit amet, consectetur adipis Lorem ipsum dolor consectetur adipis",
   },
   {
     id: 6,
     serviceIcon: serviceIcon6,
     serviceTitle: "UI/ UX Design",
-    serviceDescription: "Lorem ipsum dolor sit amet, consectetur adipis Lorem ipsum dolor sit amet, consectetur adipis",
+    serviceDescription: "Lorem ipsum dolor sit amet, consectetur adipis Lorem ipsum dolor sit amet, consectetur adipis Lorem ipsum dolor consectetur adipis",
   },
 ]
 

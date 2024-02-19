@@ -4,7 +4,13 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../../assets/about/abouts.jpg);
+  background-image: linear-gradient(0deg, rgba(104, 167, 6, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), url(../../assets/about/abouts.jpg);
+  position: relative;
+}
+
+.about_bradcumb {
+  position: absolute;
+  top: 10%;
 }
 
 .about_bd_textbox {
@@ -12,4 +18,74 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.xemiron_about_title {
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+
+/* =====>>About Xemiron <<====== */
+.about_xemiron {
+  margin: 100px 0px;
+}
+
+.about_xemiron_paragraph {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* ====>> Xemiron Apart<<====== */
+.xemiron_apart {
+  margin: 100px 0px;
+}
+
+.xemiron_apart_title {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.xemiron_apart_title_color {
+  color: var(--PrimaryColor);
+}
+
+/* ===>> Client Across <<=== */
+.client_across {
+  margin: 100px 0px;
+}
+
+.client_across_title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.client_across_paragraph {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.counter_box {
+  border: 1px solid rgba(240, 243, 249, 1);
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.client_across_counter {
+  color: var(--PrimaryColor);
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.client_across_count_title {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* ===>> promise <<==== */
+.promise {
+  padding-bottom: 50px;
 }

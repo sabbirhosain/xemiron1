@@ -1,0 +1,75 @@
+.service_bg_img {
+  width: 100%;
+  height: 90vh;
+  background-image: url(../../assets/service/service.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.bradcumb {
+  position: absolute;
+  top: 5%;
+}
+
+.service_title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.service_paragraph {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px 0px;
+}
+
+.service_btn {
+  color: var(--PrimaryBtnColor);
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 2px solid var(--PrimaryBtnColor);
+  padding: 16px 32px;
+  transition: all 0.3s;
+  display: inline-block;
+
+  &:hover {
+    color: white;
+    background-color: var(--PrimaryBtnColor);
+  }
+}
+
+/* ======>> Service Provide <<========= */
+.service_provide {
+  margin: 50px 0px;
+}
+
+.service_provide_title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.service_provide_paragraph {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px 0px 40px 0px;
+}
+
+/* =====>> Project <<==== */
+.project {
+  background-color: #F4FFE1;
+  height: 160vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project_title {
+  font-size: 48px;
+  font-weight: 600;
+  padding-bottom: 40px;
+}

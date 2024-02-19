@@ -107,9 +107,13 @@ const Home = () => {
 
       <section className='service_offering'>
         <div className="container">
-          <div className="service_offer_box">
-            <h1 className='service_offer_text'>Check out the service we're offering.</h1>
-            <p className='service_offer_paragraph'>Our service provides a wide range of solutions to meet your needs. Whether you're looking for Software Development, Web development, Web Design, UI UX Design, Graphic Design, Digital Marketing, we have you covered.</p>
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
+              <div className="service_offer_box">
+                <h1 className='service_offer_text'>Check out the service we're offering.</h1>
+                <p className='service_offer_paragraph'>Our service provides a wide range of solutions to meet your needs. Whether you're looking for Software Development, Web development, Web Design, UI UX Design, Graphic Design, Digital Marketing, we have you covered.</p>
+              </div>
+            </div>
           </div>
           <div className="row">
             {
@@ -133,9 +137,13 @@ const Home = () => {
 
       <section className='we_works'>
         <div className="container">
-          <div className='works_text_box'>
-            <h1 className='works_title'>How We works</h1>
-            <p className='works_paragaraph'>Our service provides a wide range of solutions to meet your needs. Whether you're looking for Software Development, Web development, Web Design, UI UX Design, Graphic Design, Digital Marketing, we have you covered.</p>
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
+              <div className='works_text_box'>
+                <h1 className='works_title'>How We works</h1>
+                <p className='works_paragaraph'>Our service provides a wide range of solutions to meet your needs. Whether you're looking for Software Development, Web development, Web Design, UI UX Design, Graphic Design, Digital Marketing, we have you covered.</p>
+              </div>
+            </div>
           </div>
           <div className="row">
             {
@@ -235,7 +243,7 @@ const Home = () => {
               <VBlogsCard />
             </div>
           </div>
-          <div className='text-center mt-md-4'>
+          <div className='text-center my-lg-5'>
             <Link to={"#"} className='blogs_more_btn'>Read More &ensp; <MdArrowOutward /></Link>
           </div>
         </div>
