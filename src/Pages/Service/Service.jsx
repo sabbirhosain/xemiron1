@@ -2,8 +2,7 @@ import { Helmet } from 'react-helmet'
 import ServiceCard from '../../Components/Service/ServiceCard'
 import { project, serviceProvide } from '../../Data/Data'
 import ProjectCard from '../../Components/Project/ProjectCard'
-import service from "../../assets/service/service9.png"
-import "./Service.css"
+import service from "../../assets/service/service99.png"
 import { Link } from 'react-router-dom'
 import CompanyBrand from '../../Components/CompanyBrands/CompanyBrand'
 import Testimonial from '../../Components/Testimonial/Testimonial'
@@ -12,6 +11,8 @@ import HBlogsCard from '../../Components/Blogs/Horizontal/HBlogsCard'
 import VBlogsCard from '../../Components/Blogs/Vertical/VBlogsCard'
 import { MdArrowOutward } from 'react-icons/md'
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
+import "./Service.css"
+import "./Service.responsive.css"
 
 const Service = () => {
   return (
@@ -36,7 +37,7 @@ const Service = () => {
                 </div>
               </div>
               <div className="col-lg-6">
-                <div>
+                <div className='text-lg-end'>
                   <img src={service} className='img-fluid' alt="" />
                 </div>
               </div>
@@ -80,7 +81,7 @@ const Service = () => {
         </div>
       </section>
 
-      <section className='company_brand'>
+      <section className='company_brand service_company_brand'>
         <div className="container">
           <CompanyBrand />
         </div>
@@ -92,8 +93,8 @@ const Service = () => {
             <h1 className='testimonial_title'>This is what our honurable <br /> clients say about us</h1>
             <p className='testimonial_paragaraph'>Our service provides a wide range of solutions to meet your needs. Whether you're looking for Software Development, <br /> Web development, Web Design, UI UX Design, Graphic Design, Digital Marketing, we have you covered.</p>
           </div>
-          <div><Testimonial /></div>
         </div>
+          <div className="testimonial_container"><Testimonial /></div>
       </section>
 
       <section className='frequently'>

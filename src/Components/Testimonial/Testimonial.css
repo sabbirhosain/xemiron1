@@ -4,7 +4,7 @@
 
 .slick-dots {
   position: absolute;
-  bottom: -22%;
+  bottom: -16%;
   left: 3%;
   display: block;
   width: 100%;
@@ -17,7 +17,7 @@
 @media only screen and (min-width:1200px) and (max-width:1399px) {
   .slick-dots {
     position: absolute;
-    bottom: -20%;
+    bottom: -15%;
     left: 3%;
     display: block;
     width: 100%;

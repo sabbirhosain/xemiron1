@@ -7,8 +7,8 @@ import { FaQuoteLeft } from "react-icons/fa";
 const TestimonialCard = () => {
   return (
     <>
-      <div className="card border-0 shadow-sm mx-2">
-        <div className="card-body">
+      <div className="card testimonial_card">
+        <div className="card-body px-4 py-5">
           <div className="d-flex align-items-center">
             <img src={testimonial1} alt="" />
             <div className="ms-3">

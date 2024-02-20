@@ -5,11 +5,11 @@ import "./ServiceCard.css"
 const ServiceCard = ({ serviceProviceList }) => {
   return (
     <>
-      <div class="card service_card mb-3">
+      <div class="card service_card mb-4 p-2">
         <div class="card-body">
-          <img src={serviceProviceList.serviceIcon} className="img-fluid" alt="" />
-          <h5 class="card-title">{serviceProviceList.serviceTitle}</h5>
-          <p class="card-text">{serviceProviceList.serviceDescription}</p>
+          <img src={serviceProviceList.serviceIcon} className="service_card_img" alt="" />
+          <h4 class="service_card_title">{serviceProviceList.serviceTitle}</h4>
+          <p class="service_card_paragraph">{serviceProviceList.serviceDescription}</p>
           <Link to={"#"} class="service_card_link"><FaArrowRight className="service_card_icon" /></Link>
         </div>
       </div>

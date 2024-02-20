@@ -1,8 +1,7 @@
 .service_bg_img {
   width: 100%;
-  height: 90vh;
+  height: 80vh;
   background-image: url(../../assets/service/service.png);
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -40,7 +39,7 @@
 
 /* ======>> Service Provide <<========= */
 .service_provide {
-  margin: 50px 0px;
+  margin: 100px 0px 50px 0px;
 }
 
 .service_provide_title {
@@ -61,10 +60,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 100px 0px;
 }
 
 .project_title {
   font-size: 48px;
   font-weight: 600;
   padding-bottom: 40px;
+}
+
+
+/* ==>> Compaany Brands <<===== */
+.service_company_brand {
+  padding: 50px 0px 100px 0px;
 }
