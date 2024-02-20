@@ -1,3 +1,118 @@
+/* Dasktop */
+@media only screen and (min-width:1200px) and (max-width:1399px) {
+  .hero_bg_img {
+    height: 120vh;
+  }
+
+  .hero_title {
+    font-size: 66px;
+  }
+
+  .hero_paragraph {
+    font-size: 16px;
+  }
+
+  .hero_getstart_btn,
+  .hero_explore_btn {
+    padding: 14px 28px;
+  }
+
+  /* ===>> About <<==== */
+  .about_title {
+    font-size: 44px;
+  }
+
+  .about_paragraph {
+    font-size: 16px;
+  }
+
+  /* ====>>  Share idea <<======*/
+  .share_idea_title {
+    font-size: 44px;
+  }
+
+  .share_idea_paragraph {
+    font-size: 16px;
+  }
+
+  /* ====>> Service Offering <<=== */
+  .service_offer_text {
+    font-size: 44px;
+  }
+
+  .service_offer_paragraph {
+    font-size: 16px;
+  }
+
+  .service_offer_btn {
+    font-size: 16px;
+  }
+
+  /* ====>> We Works <<====*/
+  .works_title {
+    font-size: 44px;
+  }
+
+  .works_paragaraph {
+    font-size: 16px;
+  }
+
+  .work_title {
+    font-size: 28px;
+  }
+
+  /* ====>> Hospital Managment <<====*/
+  .hospital_container {
+    height: 80vh;
+  }
+
+  .hospital_title {
+    font-size: 44px;
+  }
+
+  .hospital_paragraph {
+    font-size: 16px;
+  }
+
+  /* ====>> Client Testimonial <<===== */
+  .testimonial_title {
+    font-size: 44px;
+  }
+
+  .testimonial_paragaraph {
+    font-size: 16px;
+  }
+
+  .testimonial_container {
+    padding-left: 8%;
+  }
+
+  /* ===>> Frequently <<=== */
+  .frequently_title {
+    font-size: 44px;
+  }
+
+  .frequently_paragraph {
+    font-size: 16px;
+
+  }
+
+  /* ====>> Explore Blogs <<===== */
+  .explore_blogs_title {
+    font-size: 44px;
+  }
+
+  .explore_blogs_paragraph {
+    font-size: 16px;
+  }
+
+  .blogs_more_btn {
+    padding: 12px 28px;
+  }
+
+  
+}
+
 /* Mobile */
 @media only screen and (max-width: 576px) {
 

@@ -159,7 +159,7 @@ const Home = () => {
 
       <section className="hospital_management">
         <div className="container">
-          <div className="hospital_ccontainer">
+          <div className="hospital_container">
             <div className="row align-items-center" style={{ hiding: "80vh" }}>
               <div className="col-md-6 col-lg-6">
                 <div className='hospital_text_box'>
@@ -190,8 +190,8 @@ const Home = () => {
             <h1 className='testimonial_title'>This is what our honurable <br /> clients say about us</h1>
             <p className='testimonial_paragaraph'>Our service provides a wide range of solutions to meet your needs. Whether you're looking for Software Development, <br /> Web development, Web Design, UI UX Design, Graphic Design, Digital Marketing, we have you covered.</p>
           </div>
-          <div><Testimonial /></div>
         </div>
+        <div className="testimonial_container"><Testimonial /></div>
       </section>
 
       <section className='company_brand'>
@@ -219,7 +219,7 @@ const Home = () => {
 
       <section className='explore_blogs'>
         <div className="container">
-          <div className='pb-5 text-center'>
+          <div className='pb-4 text-center'>
             <h1 className='explore_blogs_title'>Explore Our Blogs</h1>
             <p className='explore_blogs_paragraph'>Read our Insightful blogs posted everyday</p>
           </div>
@@ -243,7 +243,7 @@ const Home = () => {
               <VBlogsCard />
             </div>
           </div>
-          <div className='text-center my-lg-5'>
+          <div className='text-center'>
             <Link to={"#"} className='blogs_more_btn'>Read More &ensp; <MdArrowOutward /></Link>
           </div>
         </div>

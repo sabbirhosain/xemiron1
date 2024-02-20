@@ -42,10 +42,22 @@
   }
 }
 
-
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width:1200px) and (max-width:1399px) {
   .blogs_img {
-    width: 100%;
-    height: auto;
+    flex-basis: 33%;
   }
-}
+
+  .blogs_text_box {
+    flex-basis: 63%;
+  }
+
+  .blogs_card_btn {
+    padding: 10px 24px;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .blogs_img {
+      width: 100%;
+      height: auto;
+    }
+  }

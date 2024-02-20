@@ -1,9 +1,11 @@
-.slick-list{
+.slick-list {
   padding: 0px !important;
 }
+
 .slick-dots {
   position: absolute;
-  bottom: -18%;
+  bottom: -22%;
+  left: 3%;
   display: block;
   width: 100%;
   padding: 0;
@@ -12,9 +14,23 @@
   text-align: start;
 }
 
+@media only screen and (min-width:1200px) and (max-width:1399px) {
+  .slick-dots {
+    position: absolute;
+    bottom: -20%;
+    left: 3%;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: start;
+  }
+}
+
 .slick-dots li button:before {
   font-family: 'slick';
-  font-size: 100px;
+  font-size: 75px;
   line-height: 20px;
   position: absolute;
   top: 0;
@@ -24,7 +40,33 @@
   content: '-';
   text-align: center;
   opacity: .25;
-  color: black;
+  color: rgb(197, 195, 195);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: green;
+}
+
+.testimonial_btn_left {
+  color: black;
+  font-size: 25px;
+  padding: 0px 5px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.testimonial_btn_right {
+  color: black;
+  font-size: 25px;
+  padding: 0px 5px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-left: 8%;
 }

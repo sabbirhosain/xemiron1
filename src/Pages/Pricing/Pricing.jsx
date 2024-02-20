@@ -1,19 +1,19 @@
+import React from 'react'
 import { Helmet } from 'react-helmet'
-import "./Contact.css"
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 
-const Contact = () => {
+const Pricing = () => {
   return (
     <>
-      <Helmet title="Contact" />
+      <Helmet title="Pricing" />
 
       <section className='breadcrumb_section'>
         <div className="container">
-          <Breadcrumb page1={"Home"} page2={"Contact"} />
+          <Breadcrumb page1={"Home"} page2={"Pricing"} />
         </div>
       </section>
     </>
   )
 }
 
-export default Contact
+export default Pricing

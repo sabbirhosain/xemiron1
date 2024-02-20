@@ -1,10 +1,10 @@
-import { Link } from 'react-router-dom'
 import "./About.css"
 import { xemironApart } from '../../Data/Data'
 import AboutCard from '../../Components/About/AboutCard'
 import CounterUp from '../../Components/CounterUp/CounterUp'
 import map from "../../assets/map.png"
 import Promise from '../../Components/Promise/Promise'
+import BreadcrumbBG from '../../Components/Breadcrumb/BreadcrumbBG'
 
 const About = () => {
   return (
@@ -12,13 +12,9 @@ const About = () => {
       <section className='about'>
         <div className="container">
           <div className="about_bg_img">
-            <nav className='about_bradcumb'>
-              <ol>
-                <li className='d-inline-block'><Link to={""}>Home</Link></li>
-                <li className='d-inline-block'><Link to={""}> &#62; </Link></li>
-                <li className='d-inline-block'><Link to={""}>Service</Link></li>
-              </ol>
-            </nav>
+            <div className='breadcrumb_bg'>
+              <BreadcrumbBG page1={"Home"} page2={"About"} />
+            </div>
             <div className='about_bd_textbox'>
               <h1 className='xemiron_about_title'>Hello World</h1>
             </div>

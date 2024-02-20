@@ -71,11 +71,9 @@ const Testimonial = () => {
         </Slider>
       </div >
       <div className="mt-5 d-flex align-items-center">
-        <button className="testimonial_btn me-1" onClick={() => slider?.current?.slickPrev()}><IoIosArrowBack /></button>
-        <button className="testimonial_dots"></button>
-        <button className="testimonial_dots active mx-2"></button>
-        <button className="testimonial_dots"></button>
-        <button className="testimonial_btn ms-1" onClick={() => slider?.current?.slickNext()}><IoIosArrowForward /></button>
+        <button className="testimonial_btn_left" onClick={() => slider?.current?.slickPrev()}><IoIosArrowBack /></button>
+        
+        <button className="testimonial_btn_right" onClick={() => slider?.current?.slickNext()}><IoIosArrowForward /></button>
       </div>
     </>
   );

@@ -1,0 +1,12 @@
+.blog_bg_img {
+  height: 60vh;
+  background-image: url(../../../assets/blogs/blogs-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 4px solid white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}

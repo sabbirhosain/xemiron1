@@ -11,6 +11,7 @@ import Faq from '../../Components/Faq/Faq'
 import HBlogsCard from '../../Components/Blogs/Horizontal/HBlogsCard'
 import VBlogsCard from '../../Components/Blogs/Vertical/VBlogsCard'
 import { MdArrowOutward } from 'react-icons/md'
+import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 
 const Service = () => {
   return (
@@ -20,13 +21,11 @@ const Service = () => {
       <section className='service'>
         <div className="service_bg_img">
           <div className="container">
-            <nav className='bradcumb'>
-              <ol>
-                <li className='d-inline-block'><Link to={""}>Home</Link></li>
-                <li className='d-inline-block'><Link to={""}> &#62; </Link></li>
-                <li className='d-inline-block'><Link to={""}>Service</Link></li>
-              </ol>
-            </nav>
+            <div className='breadcrumb_section'>
+              <div className="container">
+                <Breadcrumb page1={"Home"} page2={"Service"} />
+              </div>
+            </div>
             <div className="row align-items-lg-center">
               <div className="col-lg-6">
                 <div>

@@ -1,12 +1,31 @@
-import React from 'react'
+import "./Blogs.css"
 import VBlogsCard from '../../Components/Blogs/Vertical/VBlogsCard'
 import { GrLinkNext, GrLinkPrevious } from "react-icons/gr";
+import BlogsCarousel from '../../Components/Blogs/BlogsCarousel/BlogsCarousel';
+import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb';
+import { Helmet } from "react-helmet";
+
 
 const Blogs = () => {
   return (
     <>
+      <Helmet title="Blogs" />
+
+      <section className='breadcrumb_section'>
+        <div className="container">
+          <Breadcrumb page1={"Home"} page2={"Blogs"} />
+        </div>
+      </section>
+
+      <section className='blogs_banner'>
+        <div className="container">
+          <BlogsCarousel />
+        </div>
+      </section>
+
       <section className='our_blogs'>
         <div className="container">
+          <h1>Discover Our Insights</h1>
           <nav className='d-flex align-items-center justify-content-between'>
             <div className="nav nav-tabs" id="nav-tab" role="tablist">
               <button className="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">All</button>

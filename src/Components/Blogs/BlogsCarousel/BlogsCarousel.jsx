@@ -1,8 +1,10 @@
+import Slider from "react-slick";
 import "./BlogsCarousel.css"
+import CarouselCard from "./CarouselCard";
 
 const BlogsCarousel = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -12,22 +14,13 @@ const BlogsCarousel = () => {
     <div className="slider-container">
       <Slider {...settings}>
         <div>
-          <h3>1</h3>
+          <CarouselCard />
         </div>
         <div>
-          <h3>2</h3>
+          <CarouselCard />
         </div>
         <div>
-          <h3>3</h3>
-        </div>
-        <div>
-          <h3>4</h3>
-        </div>
-        <div>
-          <h3>5</h3>
-        </div>
-        <div>
-          <h3>6</h3>
+          <CarouselCard />
         </div>
       </Slider>
     </div>

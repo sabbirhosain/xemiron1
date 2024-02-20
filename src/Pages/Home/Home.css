@@ -99,7 +99,7 @@
 
 .about_paragraph {
   color: #475467;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -119,13 +119,15 @@
   color: #FCFCFD;
   font-size: 48px;
   font-weight: 600;
+  margin: 0;
 }
 
 .share_idea_paragraph {
   color: #FCFCFD;
   font-size: 18px;
   font-weight: 400;
-  padding: 10px 0px;
+  padding: 30px 0px;
+  margin: 0;
 }
 
 .share_img {
@@ -212,20 +214,21 @@
 }
 
 
-
 /* =====>> Hospital Management Start <<====*/
 
 .hospital_management {
   margin: 100px 0px;
 }
 
-.hospital_ccontainer {
+.hospital_container {
   height: 80vh;
   background-color: rgb(245, 245, 245);
   overflow: hidden;
   padding-left: 30px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
+  display: flex;
+  align-items: center;
 }
 
 /* .hospital_text_box {
@@ -297,6 +300,10 @@
   padding-bottom: 20px;
 }
 
+.testimonial_container{
+  padding-left: 3%;
+}
+
 /* ======>> Company Brands <<===== */
 .company_brand {
   padding: 50px 0px;
@@ -343,6 +350,7 @@
   padding: 16px 32px;
   transition: all 0.3s;
   display: inline-block;
+  margin: 50px 0px;
 
   &:hover {
     color: white;

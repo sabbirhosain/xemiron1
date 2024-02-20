@@ -1,5 +1,5 @@
 import Layout from "./Layout/Layout.jsx"
-import { About, BlogDetails, Blogs, Contact, Frequently, Home, NotFound, Service } from "./Pages/Pages.jsx"
+import { About, BlogDetails, Blogs, Contact, Frequently, Home, NotFound, Pricing, Service } from "./Pages/Pages.jsx"
 import { createBrowserRouter } from "react-router-dom"
 
 const Router = createBrowserRouter([{
@@ -29,6 +29,10 @@ const Router = createBrowserRouter([{
     {
       path: "blogs",
       element: <Blogs />,
+    },
+    {
+      path: "pricing",
+      element: <Pricing />,
     },
     {
       path: "frequently",

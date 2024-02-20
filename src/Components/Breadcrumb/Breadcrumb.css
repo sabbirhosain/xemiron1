@@ -1,9 +1,17 @@
-/* .breadcrumb_box {
+.breadcrumb_box {
   display: flex;
   align-items: center;
   height: 90px;
 }
 
+.breadcrumb-item {
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
 .breadcrumb-item+.breadcrumb-item::before {
-  content: var(--bs-breadcrumb-divider, ">");
-} */
+  font-size: 20px;
+  content: ">";
+}

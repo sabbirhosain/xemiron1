@@ -8,11 +8,6 @@
   position: relative;
 }
 
-.about_bradcumb {
-  position: absolute;
-  top: 10%;
-}
-
 .about_bd_textbox {
   height: 320px;
   display: flex;
