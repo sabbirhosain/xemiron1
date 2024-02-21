@@ -4,6 +4,7 @@ import BlogsCarousel from '../../Components/Blogs/BlogsCarousel/BlogsCarousel';
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb';
 import { Helmet } from "react-helmet";
 import "./Blogs.css"
+import { Link } from 'react-router-dom';
 
 
 const Blogs = () => {
@@ -11,7 +12,7 @@ const Blogs = () => {
     <>
       <Helmet title="Blogs" />
 
-      <section className='breadcrumb_section'>
+      <section className='blogs_breadcrumb'>
         <div className="container">
           <Breadcrumb page1={"Home"} page2={"Blogs"} />
         </div>
@@ -84,13 +85,13 @@ const Blogs = () => {
             <button type="button" className='d-flex align-items-center'><GrLinkPrevious /> Previous</button>
             <nav aria-label="Page navigation example">
               <ul class="pagination">
-                <li class="page-item"><a class="page-link" aria-current="page" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item"><a class="page-link" href="#">...</a></li>
-                <li class="page-item"><a class="page-link" href="#">8</a></li>
-                <li class="page-item"><a class="page-link" href="#">9</a></li>
-                <li class="page-item"><a class="page-link" href="#">10</a></li>
+                <li class="page-item"><Link to={""} class="page-link active">1</Link></li>
+                <li class="page-item"><Link to={""} class="page-link">2</Link></li>
+                <li class="page-item"><Link to={""} class="page-link">3</Link></li>
+                <li class="page-item"><Link to={""} class="page-link">...</Link></li>
+                <li class="page-item"><Link to={""} class="page-link">8</Link></li>
+                <li class="page-item"><Link to={""} class="page-link">9</Link></li>
+                <li class="page-item"><Link to={""} class="page-link">10</Link></li>
               </ul>
             </nav>
             <button type="button" className='d-flex align-items-center'>Next <GrLinkNext /></button>

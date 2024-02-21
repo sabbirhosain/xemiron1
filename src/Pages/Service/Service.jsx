@@ -22,7 +22,7 @@ const Service = () => {
       <section className='service'>
         <div className="service_bg_img">
           <div className="container">
-            <div className='breadcrumb_section'>
+            <div className='service_breadcrumb'>
               <div className="container">
                 <Breadcrumb page1={"Home"} page2={"Service"} />
               </div>

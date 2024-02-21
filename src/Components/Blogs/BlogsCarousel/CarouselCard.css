@@ -15,6 +15,7 @@
 
 .blogs_banner_sm_title {
   color: white;
+  font-size: 14px;
 }
 
 .blogs_banner_title {
@@ -36,4 +37,19 @@
   border: 1px solid white;
   padding: 12px 28px;
   border-radius: 8px;
+}
+
+@media only screen and (min-width:1200px) and (max-width:1399px) {
+  .blog_bg_img {
+    height: 60vh;
+  }
+
+  .blogs_banner_title {
+    font-size: 44px;
+  }
+
+  .blogs_banner_paragraph {
+    font-size: 16px;
+    padding: 0;
+  }
 }

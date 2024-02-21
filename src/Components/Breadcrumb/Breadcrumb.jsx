@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom"
 import "./Breadcrumb.css"
+import { MdArrowForwardIos } from "react-icons/md"
 
-const Breadcrumb = ({ page1, page2 }) => {
+const Breadcrumb = ({ page1, page2, color }) => {
   return (
     <>
-      <nav className='breadcrumb_box'>
-        <ol class="breadcrumb m-0">
-          <li class="breadcrumb-item"><Link to={"/"} className="breadcrumb_item_link">{page1}</Link></li>
-          <li class="breadcrumb-item"><Link to={"/service"} className="breadcrumb_item_link">{page2}</Link></li>
-        </ol>
-      </nav>
+      <ul className="breadcrumb_list">
+        <li className="breadcrumb_items"><Link to={"#"} className={`breadcrumb_link ${color}`}>{page1}</Link></li>
+        <li className="breadcrumb_items"><MdArrowForwardIos className="breadcrumb_arrow" /></li>
+        <li className="breadcrumb_items"><Link to={"#"} className={`breadcrumb_link ${color}`}>{page2}</Link></li>
+      </ul>
     </>
   )
 }

@@ -1,5 +1,11 @@
+.blogs_breadcrumb {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
 .our_blogs {
-  margin: 100px 0px;
+  margin: 70px 0px 100px 0px;
 }
 
 .our_blogs_title {
@@ -37,18 +43,22 @@
 .page-item:first-child .page-link {
   border-radius: 8px;
 }
-.page-item{
+
+.page-item {
   padding: 0px 5px;
 }
-.page-link{
+
+.page-link {
   color: var(--SecondaryColor);
   font-weight: 600;
   border: none;
   border-radius: 8px;
-  &:hover{
+
+  &:hover {
     color: var(--PrimaryBtnColor);
   }
 }
+
 .page-link:focus {
   z-index: 3;
   color: var(--PrimaryBtnColor);
@@ -62,3 +72,5 @@
   background-color: rgb(220, 248, 220);
   border-color: var(--PrimaryBtnColor);
 }
+
+@media only screen and (min-width:1200px) and (max-width:1399px) {}

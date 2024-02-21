@@ -3,7 +3,7 @@ import AboutCard from '../../Components/About/AboutCard'
 import CounterUp from '../../Components/CounterUp/CounterUp'
 import map from "../../assets/map.png"
 import Promise from '../../Components/Promise/Promise'
-import BreadcrumbBG from '../../Components/Breadcrumb/BreadcrumbBG'
+import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 import "./About.css"
 import "./About.responsive.css"
 
@@ -13,8 +13,8 @@ const About = () => {
       <section className='about'>
         <div className="container">
           <div className="about_bg_img">
-            <div className='breadcrumb_bg'>
-              <BreadcrumbBG page1={"Home"} page2={"About us"} />
+            <div className='about_breadcrumb'>
+              <Breadcrumb page1={"Home"} page2={"About us"} color={"text-white"} />
             </div>
             <div className='about_bd_textbox'>
               <h1 className='xemiron_about_title'>About Xemiron</h1>

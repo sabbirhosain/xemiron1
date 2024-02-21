@@ -1,0 +1,177 @@
+.blogs_details_breadcrumb {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+/* ====>> Blogs Detais Banner <<==== */
+.blogs_details_banner {
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%), url(../../assets/blog-details/blogs-details-bg.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blogs_details_sm_title {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.blogs_details_title {
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+
+/* ====>> Blogs Description <<==== */
+.blogs_description {
+  margin: 100px 0px;
+}
+
+.social_list {
+  list-style-type: none;
+}
+
+.socail_item {
+  display: inline-flex;
+  align-items: center;
+  margin: 0px 5px;
+}
+
+.social_link {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: rgba(244, 255, 225, 1);
+}
+
+.social_icon {
+  color: var(--PrimaryColor);
+}
+
+.category_list {
+  list-style-type: none;
+}
+
+.category_item {
+  display: inline-flex;
+  align-items: center;
+  margin: 0px 5px;
+}
+
+.category_link {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--seconderyColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  border-radius: 25px;
+  background-color: rgba(244, 255, 225, 1);
+}
+
+
+/* ===>> Blogs Comments <<==== */
+.comment_counts {
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.user_icon_box {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: rgba(244, 255, 225, 1);
+  margin-right: 10px;
+}
+
+.blogs_user_icon {
+  color: var(--PrimaryColor);
+  font-size: 20px;
+}
+
+.blogs_user_name {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.blogs_comments_textarea {
+  width: 100%;
+  border: 1px solid rgba(234, 236, 240, 1);
+  border-radius: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.comment_submit_btn {
+  color: white;
+  padding: 12px 26px;
+  background-color: var(--PrimaryColor);
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.massage_user_icon_box {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: rgba(244, 255, 225, 1);
+  margin-right: 10px;
+}
+
+.massage_blogs_user_icon {
+  color: var(--PrimaryColor);
+  /* font-size: 25px; */
+}
+
+.massage_name {
+  margin: 0px;
+  /* font-size: 20px; */
+  font-weight: 500;
+}
+
+.massage_paragraph {
+  color: rgba(93, 93, 93, 1);
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+
+.massage_acction_icon {
+  font-size: 16px;
+}
+
+/* ====>> Recent Blogs <<==== */
+.recent_blogs {
+  margin: 50px 0px 100px 0px;
+}
+
+.recent_blogs_title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.recent_blogs_paragraph {
+  font-size: 18px;
+  font-weight: 400;
+}
