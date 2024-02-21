@@ -1,8 +1,25 @@
+.vblogs_card {
+  border-radius: 16px;
+  /* padding: 20px; */
+}
+
 .blogs_card_img {
   width: 100%;
   height: 200px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 16px;
+}
+
+.blogs_card_title {
+  color: red;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.blogs_card_paragraph {
+  font-size: 18px;
+  font-weight: 400;
 }
 
 /* .blogs_card_btn {

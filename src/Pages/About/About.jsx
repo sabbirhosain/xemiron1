@@ -1,10 +1,11 @@
-import "./About.css"
 import { xemironApart } from '../../Data/Data'
 import AboutCard from '../../Components/About/AboutCard'
 import CounterUp from '../../Components/CounterUp/CounterUp'
 import map from "../../assets/map.png"
 import Promise from '../../Components/Promise/Promise'
 import BreadcrumbBG from '../../Components/Breadcrumb/BreadcrumbBG'
+import "./About.css"
+import "./About.responsive.css"
 
 const About = () => {
   return (
@@ -13,10 +14,10 @@ const About = () => {
         <div className="container">
           <div className="about_bg_img">
             <div className='breadcrumb_bg'>
-              <BreadcrumbBG page1={"Home"} page2={"About"} />
+              <BreadcrumbBG page1={"Home"} page2={"About us"} />
             </div>
             <div className='about_bd_textbox'>
-              <h1 className='xemiron_about_title'>Hello World</h1>
+              <h1 className='xemiron_about_title'>About Xemiron</h1>
             </div>
           </div>
         </div>

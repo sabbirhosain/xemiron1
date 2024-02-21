@@ -1,0 +1,34 @@
+@media only screen and (min-width:1200px) and (max-width:1399px) {
+  .xemiron_about_title {
+    font-size: 44px;
+  }
+
+  /* ===>> About Xemiron <<===== */
+  .about_xemiron_paragraph {
+    font-size: 16px;
+  }
+
+  /* ====>> Xemiron Apart<<====== */
+  .xemiron_apart_title {
+    font-size: 44px;
+  }
+
+  /* ===>> Client Across <<=== */
+
+  .client_across_title {
+    font-size: 44px;
+  }
+
+  .client_across_paragraph {
+    font-size: 16px;
+  }
+
+  .client_across_counter {
+    font-size: 44px;
+  }
+
+  .client_across_count_title {
+    font-size: 18px;
+  }
+
+}

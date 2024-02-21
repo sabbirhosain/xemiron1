@@ -4,7 +4,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: linear-gradient(0deg, rgba(104, 167, 6, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), url(../../assets/about/abouts.jpg);
+  background-image: linear-gradient(0deg, rgba(36, 49, 11, 0.8) 100%, rgba(104, 167, 6, 1) 100%), url(../../assets/about/abouts.jpg);
   position: relative;
 }
 

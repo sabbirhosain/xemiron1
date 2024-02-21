@@ -9,6 +9,7 @@
 
   .service_btn {
     padding: 14px 28px;
+    display: inline;
   }
 
   /* ====>> Service Provider <<==== */
@@ -18,5 +19,14 @@
 
   .service_provide_paragraph {
     font-size: 16px;
+  }
+
+  /* ====>> Project <<======= */
+  .project {
+    height: 180vh;
+  }
+
+  .project_title {
+    font-size: 44px;
   }
 }

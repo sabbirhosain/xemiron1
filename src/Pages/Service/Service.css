@@ -56,11 +56,11 @@
 /* =====>> Project <<==== */
 .project {
   background-color: #F4FFE1;
-  height: 160vh;
+  height: 200vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 100px 0px;
+  margin: 100px 0px 50px 0px;
 }
 
 .project_title {
