@@ -98,7 +98,7 @@ const Home = () => {
             </div>
             <div className="col-md-6 col-lg-5">
               <div className="share_img_box">
-                <img src={shareIdea} className="share_img" height={"300px"} alt="" />
+                <img src={shareIdea} className="share_img" alt="" />
               </div>
             </div>
           </div>

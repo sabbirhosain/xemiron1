@@ -52,3 +52,7 @@
 .service_card_link:hover .service_card_icon {
   color: white;
 }
+
+@media only screen and (max-width: 576px) {
+  
+}
