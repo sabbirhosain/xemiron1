@@ -144,9 +144,9 @@
 }
 
 .massage_name {
+  color: var(--seconderyColor);
   margin: 0px;
-  /* font-size: 20px; */
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .massage_paragraph {
@@ -160,6 +160,12 @@
 .massage_acction_icon {
   font-size: 16px;
 }
+
+/* ====>> Shear Blogs <<==== */
+.shear_blogs {
+  margin: 100px 0px;
+}
+
 
 /* ====>> Recent Blogs <<==== */
 .recent_blogs {

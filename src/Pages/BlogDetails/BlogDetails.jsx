@@ -152,7 +152,7 @@ const BlogDetails = () => {
             </div>
           </form>
 
-          <div className="massage_box mt-4">
+          <div className="massage_box mt-5">
             <div className="d-flex align-items-center">
               <span className="massage_user_icon_box"><FiUser className="massage_blogs_user_icon" /></span>
               <div>
@@ -160,14 +160,14 @@ const BlogDetails = () => {
                 <small className="disabled">2 Days ago</small>
               </div>
             </div>
-            <p className="massage_paragraph">WhatsApp is a widely used messaging application. However, there is a decrease in rating due to user difficulties in using some of the features.The best Users</p>
+            <p className="massage_paragraph">WhatsApp is a widely used messaging application. However, there is a decrease in rating due to user difficulties in using some of the features.The best Users blogs Massage</p>
             <div className="d-flex align-items-center justify-content-between">
-            
-              <FaRegHeart className="massage_acction_icon"/>
+
+              <FaRegHeart className="massage_acction_icon" />
               <span className="massage_acction_icon">Reply <BiComment /></span>
             </div>
           </div>
-          <div className="massage_box mt-4">
+          <div className="massage_box mt-5">
             <div className="d-flex align-items-center">
               <span className="massage_user_icon_box"><FiUser className="massage_blogs_user_icon" /></span>
               <div>
@@ -175,12 +175,20 @@ const BlogDetails = () => {
                 <small className="disabled">2 Days ago</small>
               </div>
             </div>
-            <p className="massage_paragraph">WhatsApp is a widely used messaging application. However, there is a decrease in rating due to user difficulties in using some of the features.The best Users</p>
+            <p className="massage_paragraph">WhatsApp is a widely used messaging application. However, there is a decrease in rating due to user difficulties in using some of the features.The best Users blogs Massage </p>
             <div className="d-flex align-items-center justify-content-between">
-            
-              <FaRegHeart className="massage_acction_icon"/>
+
+              <FaRegHeart className="massage_acction_icon" />
               <span className="massage_acction_icon">Reply <BiComment /></span>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="shear_blogs">
+        <div className="container">
+          <div className="d-flex align-items-center justify-content-center">
+            <div>Hello World</div>
           </div>
         </div>
       </section>
