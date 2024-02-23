@@ -1,0 +1,29 @@
+@media only screen and (min-width:1200px) and (max-width:1399px) {
+  .price_title {
+    font-size: 44px;
+  }
+
+  .price_paragraph {
+    font-size: 16px;
+  }
+
+  .price_card_box {
+    min-height: 470px;
+  }
+
+  .price_card_title {
+    font-size: 22px;
+  }
+
+  .price_card_rate {
+    font-size: 66px;
+  }
+
+  .price_feture {
+    font-size: 16px;
+  }
+
+  .price_btn {
+    padding: 14px 28px;
+  }
+}

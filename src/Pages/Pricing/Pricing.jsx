@@ -2,6 +2,7 @@ import { Helmet } from 'react-helmet'
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 import { FaCheck } from "react-icons/fa6";
 import "./Pricing.css"
+import "./Pricing.responsive.css"
 import { Link } from 'react-router-dom';
 
 const Pricing = () => {
