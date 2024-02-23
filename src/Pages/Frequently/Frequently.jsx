@@ -6,9 +6,9 @@ import "./Frequently.css"
 const Frequently = () => {
   return (
     <>
-      <section className='breadcrum_section'>
+      <section className='frequently_breadcrum'>
         <div className="container">
-          <Breadcrumb />
+          <Breadcrumb page1={"Home"} page2={"Frequently"} />
         </div>
       </section>
 
@@ -19,7 +19,6 @@ const Frequently = () => {
               <div className='d-flex align-items-center justify-content-center flex-column'>
                 <h1>Frequently</h1>
                 <p>We have compiled a list of frequently asked questions to help you quickly find the information you need.</p>
-                <Link to={"/"} className='contact_us_btn'>Contact Us</Link>
               </div>
             </div>
           </div>

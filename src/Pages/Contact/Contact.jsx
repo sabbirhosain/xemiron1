@@ -7,7 +7,7 @@ const Contact = () => {
     <>
       <Helmet title="Contact" />
 
-      <section className='breadcrumb_section'>
+      <section className='contact_breadcrumb'>
         <div className="container">
           <Breadcrumb page1={"Home"} page2={"Contact"} />
         </div>

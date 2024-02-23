@@ -69,36 +69,36 @@ const BlogDetails = () => {
 
 
               <div className="mt-5">
-                <h1>Introduction</h1>
+                <h2 className="blogs_desc_title">Introduction</h2>
 
-                <p>Welcome to the final installment of Xemiron's Python tutorial series! As we conclude this enriching journey together, take a moment to reflect on your progress and celebrate your achievements. In this segment, we'll discuss valuable insights gained, provide guidance for continued learning, and chart a path forward in your Python mastery journey.</p>
+                <p className="blogs_desc_paragraph py-4">Welcome to the final installment of Xemiron's Python tutorial series! As we conclude this enriching journey together, take a moment to reflect on your progress and celebrate your achievements. In this segment, we'll discuss valuable insights gained, provide guidance for continued learning, and chart a path forward in your Python mastery journey.</p>
 
-                <h1>Reflections on Your Python Journey</h1>
-                <p>Pause and acknowledge the milestones you've achieved throughout this Python tutorial series. From mastering the basics to delving into advanced concepts, each step has contributed to your growth as a Python programmer.</p>
+                <h2 className="blogs_desc_title">Reflections on Your Python Journey</h2>
+                <p className="blogs_desc_paragraph pt-4 pb-5">Pause and acknowledge the milestones you've achieved throughout this Python tutorial series. From mastering the basics to delving into advanced concepts, each step has contributed to your growth as a Python programmer.</p>
 
                 <img src={BlogsDetails1} className="img-fluid" alt="" />
 
-                <span>Celebrating Your Achievements</span>
+                <span className="blogs_img_caption">Celebrating Your Achievements</span>
 
-                <h6>Dolor enim eu tortor urna sed duis nulla. Aliquam vestibulum, nulla odio nisl vitae. In aliquet pellentesque aenean hac vestibulum turpis mi bibendum diam. Tempor integer aliquam in vitae malesuada fringilla.</h6>
+                <h6 className="blogs_highlight_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptas sit dicta optio? Quibusdam suscipit porro asperiores laborum blanditiis perspiciatis iusto rerum natus. Inventore cupiditate ipsa magni quis magnam quod nihil qui similique, asperiores veritatis nisi in illum excepturi ad vitae possimus labore expedita.</h6>
 
-                <p>Elit nisi in eleifend sed nisi. Pulvinar at orci, proin imperdiet commodo consectetur convallis risus. Sed condimentum enim dignissim adipiscing faucibus consequat, urna. Viverra purus et erat auctor aliquam. Risus, volutpat vulputate posuere purus sit congue convallis aliquet. Arcu id augue ut feugiat donec porttitor neque. Mauris, neque ultricies eu vestibulum, bibendum quam lorem id. Dolor lacus, eget nunc lectus in tellus, pharetra, porttitor.</p>
+                <p className="blogs_desc_paragraph pb-5">Elit nisi in eleifend sed nisi. Pulvinar at orci, proin imperdiet commodo consectetur convallis risus. Sed condimentum enim dignissim adipiscing faucibus consequat, urna. Viverra purus et erat auctor aliquam. Risus, volutpat vulputate posuere purus sit congue convallis aliquet. Arcu id augue ut feugiat donec porttitor neque. Mauris, neque ultricies eu vestibulum, bibendum quam lorem id. Dolor lacus, eget nunc lectus in tellus, pharetra, porttitor.</p>
 
                 <img src={BlogsDetails2} className="img-fluid" alt="" />
 
-                <span>Image caption goes here</span>
+                <span className="blogs_img_caption">Image caption goes here</span>
 
-                <h6>"Ipsum sit mattis nulla quam nulla. Gravida id gravida ac enim mauris id. Non pellentesque congue eget consectetur turpis. Sapien, dictum molestie sem tempor. Diam elit, orci, tincidunt aenean tempus."</h6>
+                <h6 className="blogs_highlight_paragraph">"Ipsum sit mattis nulla quam nulla. Gravida id gravida ac enim mauris id. Non pellentesque congue eget consectetur turpis. Sapien, dictum molestie sem tempor. Diam elit, orci, tincidunt aenean tempus. Sapien, dictum molestie sem tempor. Diam elit, orci, tincidunt aenean tempus."</h6>
 
-                <p>Tristique odio senectus nam posuere ornare leo metus, ultricies. Blandit duis ultricies vulputate morbi feugiat cras placerat elit. Aliquam tellus lorem sed ac. Montes, sed mattis pellentesque suscipit accumsan. Cursus viverra aenean magna risus elementum faucibus molestie pellentesque. Arcu ultricies sed mauris vestibulum.</p>
+                <p className="blogs_desc_paragraph py-4">Tristique odio senectus nam posuere ornare leo metus, ultricies. Blandit duis ultricies vulputate morbi feugiat cras placerat elit. Aliquam tellus lorem sed ac. Montes, sed mattis pellentesque suscipit accumsan. Cursus viverra aenean magna risus elementum faucibus molestie pellentesque. Arcu ultricies sed mauris vestibulum.</p>
 
-                <h1>Conclusion</h1>
+                <h2 className="blogs_desc_title">Conclusion</h2>
 
-                <p>Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse.</p>
+                <p className="blogs_desc_paragraph pt-4">Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse.</p>
 
-                <p>Nunc sed faucibus bibendum feugiat sed interdum. Ipsum egestas condimentum mi massa. In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in nec sed et. Quis lobortis at sit dictum eget nibh tortor commodo cursus.</p>
+                <p className="blogs_desc_paragraph py-2">Nunc sed faucibus bibendum feugiat sed interdum. Ipsum egestas condimentum mi massa. In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in nec sed et. Quis lobortis at sit dictum eget nibh tortor commodo cursus.</p>
 
-                <p>Odio felis sagittis, morbi feugiat tortor vitae feugiat fusce aliquet. Nam elementum urna nisi aliquet erat dolor enim. Ornare id morbi eget ipsum. Aliquam senectus neque ut id eget consectetur dictum. Donec posuere pharetra odio consequat scelerisque et, nunc tortor. Nulla adipiscing erat a erat. Condimentum lorem posuere gravida enim posuere cursus diam.</p>
+                <p className="blogs_desc_paragraph">Odio felis sagittis, morbi feugiat tortor vitae feugiat fusce aliquet. Nam elementum urna nisi aliquet erat dolor enim. Ornare id morbi eget ipsum. Aliquam senectus neque ut id eget consectetur dictum. Donec posuere pharetra odio consequat scelerisque et, nunc tortor. Nulla adipiscing erat a erat. Condimentum lorem posuere gravida enim posuere cursus diam.</p>
 
                 <div className="d-flex align-items-center justify-content-between my-5">
                   <ul className="category_list">
@@ -188,7 +188,38 @@ const BlogDetails = () => {
       <section className="shear_blogs">
         <div className="container">
           <div className="d-flex align-items-center justify-content-center">
-            <div>Hello World</div>
+            <div className="text-center">
+              <h6>Share this post</h6>
+              <ul className="social_list mt-3">
+                <li className="socail_item">
+                  <Link to={""} className="social_link"><AiOutlineLink className="social_icon" /></Link>
+                </li>
+                <li className="socail_item">
+                  <Link to={""} className="social_link"><FaLinkedin className="social_icon" /></Link>
+                </li>
+                <li className="socail_item">
+                  <Link to={""} className="social_link"><FaTwitter className="social_icon" /></Link>
+                </li>
+                <li className="socail_item">
+                  <Link to={""} className="social_link"><FaFacebookF className="social_icon" /></Link>
+                </li>
+              </ul>
+
+              <ul className="blogs_tag_list mt-5">
+                <li className="blogs_tag_items">
+                  <Link to={""} className="blogs_tag_link">Tag One</Link>
+                </li>
+                <li className="blogs_tag_items">
+                  <Link to={""} className="blogs_tag_link">TagTwo</Link>
+                </li>
+                <li className="blogs_tag_items">
+                  <Link to={""} className="blogs_tag_link">Tag Theree</Link>
+                </li>
+                <li className="blogs_tag_items">
+                  <Link to={""} className="blogs_tag_link">Tag Four</Link>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>

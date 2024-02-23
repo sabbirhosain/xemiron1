@@ -129,7 +129,7 @@
   margin: 0;
 }
 
-.share_img_box {
+/* .share_img_box {
   position: absolute;
   height: 130%;
   top: -18%;
@@ -142,6 +142,15 @@
   width: 100%;
   height: auto;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+} */
+
+
+.share_idea_box {
+  position: relative;
+}
+
+.share_img {
+  /* position: absolute; */
 }
 
 .share_idea_estimate_btn {

@@ -1,0 +1,90 @@
+.pricing_breadcrum {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.price_plan {
+  padding: 50px 0px;
+}
+
+.price_title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.price_paragraph {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.price_card_box {
+  min-height: 500px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 20px 10px;
+  border: 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.price_card_title {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.price_card_rate {
+  font-size: 72px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.price_card_time {
+  font-size: 32px !important;
+  font-weight: 600;
+}
+
+.price_per_project {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.price_feture {
+  color: #475467;
+  font-size: 18px;
+  font-weight: 400;
+  display: block;
+  padding: 5px 0px;
+}
+
+.price_feture_icon {
+  color: var(--PrimaryBtnColor);
+  margin-right: 10px;
+}
+
+.price_btn {
+  color: var(--PrimaryBtnColor);
+  display: block;
+  text-align: center;
+  border: 2px solid var(--PrimaryBtnColor);
+  padding: 16px 32px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: white;
+    background-color: var(--PrimaryBtnColor);
+  }
+}
+
+
+.parent-class {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-flow: dense;
+  margin: 20px auto;
+}
