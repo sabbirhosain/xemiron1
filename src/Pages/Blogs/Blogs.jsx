@@ -4,6 +4,7 @@ import BlogsCarousel from '../../Components/Blogs/BlogsCarousel/BlogsCarousel';
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb';
 import { Helmet } from "react-helmet";
 import "./Blogs.css"
+import "./Blogs.responsive.css"
 import { Link } from 'react-router-dom';
 
 

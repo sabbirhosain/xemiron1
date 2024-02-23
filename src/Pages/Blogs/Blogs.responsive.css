@@ -1,1 +1,9 @@
-@media only screen and (min-width:1200px) and (max-width:1399px) {}
+@media only screen and (min-width:1200px) and (max-width:1399px) {
+  .our_blogs_title {
+    font-size: 44px;
+  }
+
+  .filter_tab_link {
+    font-size: 16px;
+  }
+}
