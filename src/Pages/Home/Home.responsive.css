@@ -1,7 +1,11 @@
 /* Dasktop */
 @media only screen and (min-width:1200px) and (max-width:1399px) {
   .hero_bg_img {
-    height: 120vh;
+    height: 130vh;
+  }
+
+  .hero_inner {
+    padding-top: 70px;
   }
 
   .hero_title {
@@ -259,16 +263,16 @@
     margin: 50px 0px;
   }
 
-.hospital_container {
-  height: 120vh;
-  background-color: rgb(245, 245, 245);
-  overflow: hidden;
-  padding-left: 30px;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-  display: flex;
-  align-items: center;
-}
+  .hospital_container {
+    height: 120vh;
+    background-color: rgb(245, 245, 245);
+    overflow: hidden;
+    padding-left: 30px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display: flex;
+    align-items: center;
+  }
 
   .hospital_mini_title {
     color: var(--SecondaryColor);

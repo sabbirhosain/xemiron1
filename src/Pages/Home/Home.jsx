@@ -7,7 +7,6 @@ import about from "../../assets/About-us.png"
 import shareIdea from "../../assets/shear.svg"
 import discuss from "../../assets/duscuss.png"
 import hospitalManagement from "../../assets/hospital-management.png"
-import { Helmet } from 'react-helmet'
 import { IoLogoWhatsapp } from "react-icons/io";
 import { HiOutlineUserGroup } from "react-icons/hi";
 import { Link } from 'react-router-dom'
@@ -20,36 +19,38 @@ import CompanyBrand from '../../Components/CompanyBrands/CompanyBrand'
 import Faq from '../../Components/Faq/Faq'
 import { MdArrowOutward } from 'react-icons/md'
 import ServiceOffer from '../../Components/ServicesOffer/ServiceOffer'
+import HomeLayout from "../../Layout/HomeLayout"
 
 const Home = () => {
   return (
-    <>
-      <Helmet title="Home" />
+    <HomeLayout title={"Home"}>
 
       <section className='hero_section'>
         <div className="hero_bg_img">
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-12 col-lg-8 col-xxl-7 order-2 order-lg-1">
-                <div className='hero_category'>
-                  <Link to={"#"} className='hero_category_title'>Website design</Link>
-                  <Link to={"#"} className='hero_category_title'>Custom Web Application</Link>
-                  <Link to={"#"} className='hero_category_title'>Digital Marketing</Link>
-                  <Link to={"#"} className='hero_category_title'>And much more</Link>
+          <div className="hero_inner">
+            <div className="container">
+              <div className="row align-items-center">
+                <div className="col-12 col-lg-8 col-xxl-7 order-2 order-lg-1">
+                  <div className='hero_category'>
+                    <Link to={"#"} className='hero_category_title'>Website design</Link>
+                    <Link to={"#"} className='hero_category_title'>Custom Web Application</Link>
+                    <Link to={"#"} className='hero_category_title'>Digital Marketing</Link>
+                    <Link to={"#"} className='hero_category_title'>And much more</Link>
+                  </div>
+                  <div>
+                    <h1 className='hero_title'>Need to build a website or Custom Web Application⁉️</h1>
+                    <p className='hero_paragraph'>At Xemiron IT Solutions, we specialize in business digitalization. Whether you’re launching a new business or already own a company and need a website, mobile app, or custom management software, we can help. Our team comprises designers, developers, digital marketing experts, and specialists from various IT fields.</p>
+                  </div>
+                  <div className="pt-lg-3">
+                    <Link to={"#"} className='hero_getstart_btn'>Get Start Now</Link>
+                    <Link to={"#"} className='hero_explore_btn'>Explore More</Link>
+                  </div>
                 </div>
-                <div>
-                  <h1 className='hero_title'>Need to build a website or Custom Web Application⁉️</h1>
-                  <p className='hero_paragraph'>At Xemiron IT Solutions, we specialize in business digitalization. Whether you’re launching a new business or already own a company and need a website, mobile app, or custom management software, we can help. Our team comprises designers, developers, digital marketing experts, and specialists from various IT fields.</p>
-                </div>
-                <div className="pt-lg-3">
-                  <Link to={"#"} className='hero_getstart_btn'>Get Start Now</Link>
-                  <Link to={"#"} className='hero_explore_btn'>Explore More</Link>
-                </div>
-              </div>
-              <div className="col-12 col-lg-4 col-xxl-4 order-1 order-lg-2 ">
-                <div className="hero_img_box">
-                  <img src={image} className="img-fluid hero_img" alt="" />
-                  <img src={review} className="img-fluid hero_review" alt="" />
+                <div className="col-12 col-lg-4 col-xxl-4 order-1 order-lg-2 ">
+                  <div className="hero_img_box">
+                    <img src={image} className="img-fluid hero_img" alt="" />
+                    <img src={review} className="img-fluid hero_review" alt="" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -248,7 +249,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-    </>
+    </HomeLayout>
   )
 }
 

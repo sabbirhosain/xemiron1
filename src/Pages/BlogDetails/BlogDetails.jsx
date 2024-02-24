@@ -8,17 +8,16 @@ import BlogsDetails2 from "../../assets/blog-details/blog-details2.jpg"
 
 import { Link } from "react-router-dom"
 import { FiUser } from "react-icons/fi";
-import { CiHeart } from "react-icons/ci";
 import { BiComment } from "react-icons/bi";
 import { AiOutlineLink } from "react-icons/ai";
 import { FaLinkedin, FaTwitter, FaFacebookF, FaRegHeart } from "react-icons/fa";
 import { MdArrowForwardIos } from "react-icons/md";
 import "./BlogDetails.css"
+import InnerLayout from "../../Layout/InnerLayout"
 
 const BlogDetails = () => {
   return (
-    <>
-      <Helmet title="Blog Details" />
+    <InnerLayout title="Blog Details">
 
       <section className='blogs_details_breadcrumb'>
         <div className="container">
@@ -240,7 +239,7 @@ const BlogDetails = () => {
           </div>
         </div>
       </section>
-    </>
+    </InnerLayout>
   )
 }
 

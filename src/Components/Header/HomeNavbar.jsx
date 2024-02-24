@@ -1,34 +1,58 @@
 import { Link, NavLink } from "react-router-dom"
 import { FaRegClock } from "react-icons/fa";
 import logo from "../../assets/header/logo.png"
-import "./Header.css"
+import logo1 from "../../assets/header/logo1.png"
 import Dropdown from "./Dropdown";
+import "./HomeNavbar.css"
+import { useEffect, useState } from "react";
 
-const Header = () => {
+const HomeNavbar = () => {
+
+  const [isSticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    const handelScroll = () => {
+      const offset = window.scrollY;
+      setSticky(offset > 100)
+    };
+
+    window.addEventListener("scroll", handelScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handelScroll)
+    }
+
+
+  }, []);
+
+
+
+
+
 
   return (
     <>
-      <nav className={`navbar navbar-expand-lg inner_navbar_sticky`}>
+      <nav className={`navbar navbar-expand-lg home_navbar ${isSticky ? "home_navbar_sticky" : ""}`}>
         <div className="container">
-          <a className="navbar-brand" href="#">
-            <img src={logo} className="img-fluid" alt="" />
-          </a>
+          <Link to={"/"} className="navbar-brand">
+            {isSticky ? <img src={logo} className="img-fluid" /> : <img src={logo1} className="img-fluid" />}
+          </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink to={"/home"} className="nav-link">Home</NavLink>
+                <NavLink to={"/home"} className={`nav-link ${isSticky ? "" : "nav_link"}`}>Home</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to={"/pricing"} className="nav-link">Pricing</NavLink>
+                <NavLink to={"/pricing"} className={`nav-link ${isSticky ? "" : "nav_link"}`}>Pricing</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to={"/service"} className="nav-link">Service</NavLink>
+                <NavLink to={"/service"} className={`nav-link ${isSticky ? "" : "nav_link"}`}>Service</NavLink>
               </li>
               <li className="nav-item dropdown position-static">
-                <Link to={"/product"} className="nav-link dropdown-toggle" data-bs-auto-close="false" data-bs-toggle="dropdown" aria-expanded="false">Product</Link>
+                <Link to={"/product"} className={`nav-link ${isSticky ? "" : "nav_link"} dropdown-toggle`} data-bs-auto-close="false" data-bs-toggle="dropdown" aria-expanded="false">Product</Link>
                 <ul className="dropdown-menu dropdown_mega_menu w-100">
                   <div className="d-lg-none">
                     <li><NavLink to={"/"} className="dropdown-item ps-0">Management</NavLink></li>
@@ -42,13 +66,13 @@ const Header = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <NavLink to={"/contact"} className="nav-link">Contact</NavLink>
+                <NavLink to={"/contact"} className={`nav-link ${isSticky ? "" : "nav_link"}`}>Contact</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to={"/about"} className="nav-link">About us</NavLink>
+                <NavLink to={"/about"} className={`nav-link ${isSticky ? "" : "nav_link"}`}>About us</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to={"/blogs"} className="nav-link">Blog</NavLink>
+                <NavLink to={"/blogs"} className={`nav-link ${isSticky ? "" : "nav_link"}`}>Blog</NavLink>
               </li>
             </ul>
             <div>
@@ -61,4 +85,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default HomeNavbar

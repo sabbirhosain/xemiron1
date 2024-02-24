@@ -6,12 +6,12 @@ import { Helmet } from "react-helmet";
 import "./Blogs.css"
 import "./Blogs.responsive.css"
 import { Link } from 'react-router-dom';
+import InnerLayout from '../../Layout/InnerLayout';
 
 
 const Blogs = () => {
   return (
-    <>
-      <Helmet title="Blogs" />
+    <InnerLayout title="Blogs">
 
       <section className='blogs_breadcrumb'>
         <div className="container">
@@ -101,7 +101,7 @@ const Blogs = () => {
         </div>
       </section>
 
-    </>
+    </InnerLayout>
   )
 }
 

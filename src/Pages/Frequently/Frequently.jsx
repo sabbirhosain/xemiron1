@@ -2,10 +2,11 @@ import { Link } from 'react-router-dom'
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 import Faq from '../../Components/Faq/Faq'
 import "./Frequently.css"
+import InnerLayout from '../../Layout/InnerLayout'
 
 const Frequently = () => {
   return (
-    <>
+    <InnerLayout title={"Frequently"}>
       <section className='frequently_breadcrum'>
         <div className="container">
           <Breadcrumb page1={"Home"} page2={"Frequently"} />
@@ -38,7 +39,7 @@ const Frequently = () => {
           </div>
         </div>
       </section>
-    </>
+    </InnerLayout>
   )
 }
 

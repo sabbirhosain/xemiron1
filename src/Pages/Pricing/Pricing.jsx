@@ -4,11 +4,11 @@ import { FaCheck } from "react-icons/fa6";
 import "./Pricing.css"
 import "./Pricing.responsive.css"
 import { Link } from 'react-router-dom';
+import InnerLayout from '../../Layout/InnerLayout';
 
 const Pricing = () => {
   return (
-    <>
-      <Helmet title="Pricing" />
+    <InnerLayout title="Pricing">
 
       <section className='pricing_breadcrum'>
         <div className="container">
@@ -115,7 +115,7 @@ const Pricing = () => {
       </div> */}
 
 
-    </>
+    </InnerLayout>
   )
 }
 

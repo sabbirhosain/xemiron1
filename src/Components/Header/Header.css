@@ -1,7 +1,11 @@
-.navbar {
+.inner_navbar_sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%;
   background-color: white;
   padding: 10px 0px;
   box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+  z-index: 9999;
 }
 
 .navbar-toggler:focus {
@@ -9,13 +13,17 @@
   box-shadow: none;
 }
 
-/* .navbar-toggler-icon {
-  background-image: none;
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 400;
   color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: var(--PrimaryBtnColor);
+  }
+}
 
 .nav_btn {
   color: white;

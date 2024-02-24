@@ -13,12 +13,11 @@ import { MdArrowOutward } from 'react-icons/md'
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 import "./Service.css"
 import "./Service.responsive.css"
+import InnerLayout from '../../Layout/InnerLayout'
 
 const Service = () => {
   return (
-    <>
-      <Helmet title="Service" />
-
+    <InnerLayout title="Service">
       <section className='service'>
         <div className="service_bg_img">
           <div className="container">
@@ -94,7 +93,7 @@ const Service = () => {
             <p className='testimonial_paragaraph'>Our service provides a wide range of solutions to meet your needs. Whether you're looking for Software Development, <br /> Web development, Web Design, UI UX Design, Graphic Design, Digital Marketing, we have you covered.</p>
           </div>
         </div>
-          <div className="testimonial_container"><Testimonial /></div>
+        <div className="testimonial_container"><Testimonial /></div>
       </section>
 
       <section className='frequently'>
@@ -145,7 +144,7 @@ const Service = () => {
           </div>
         </div>
       </section>
-    </>
+    </InnerLayout>
   )
 }
 

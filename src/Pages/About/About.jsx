@@ -6,10 +6,11 @@ import Promise from '../../Components/Promise/Promise'
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 import "./About.css"
 import "./About.responsive.css"
+import InnerLayout from '../../Layout/InnerLayout'
 
 const About = () => {
   return (
-    <>
+    <InnerLayout title={"About"}>
       <section className='about'>
         <div className="container">
           <div className="about_bg_img">
@@ -101,7 +102,7 @@ const About = () => {
       <section className='promise'>
         <Promise />
       </section>
-    </>
+    </InnerLayout>
   )
 }
 
