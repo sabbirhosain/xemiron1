@@ -2,10 +2,10 @@
 
 :root {
   --PrimaryFonts: 'Inter', sans-serif;
-  --PrimaryColor: #68A706;
+  --PrimaryColor: #25D366;
   --SecondaryColor: #223039;
   --ParagraphColor: #475467;
-  --PrimaryBtnColor: #68A706;
+  --PrimaryBtnColor: #25D366;
 }
 
 *,
