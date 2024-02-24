@@ -52,7 +52,7 @@ const Header = () => {
               </li>
             </ul>
             <div>
-              <button className="nav_btn ms-lg-3"><FaRegClock />&emsp;Schedule Meeting</button>
+              <Link to={"/schedule"} className="nav_btn ms-lg-3"><FaRegClock />&emsp;Schedule Meeting</Link>
             </div>
           </div>
         </div>

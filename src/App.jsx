@@ -4,7 +4,7 @@ import "../node_modules/bootstrap/dist/js/bootstrap.bundle.js"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import { About, BlogDetails, Blogs, Contact, Frequently, Home, NotFound, Pricing, Service } from "./Pages/Pages.jsx"
+import { About, BlogDetails, Blogs, Contact, Frequently, Home, NotFound, Pricing, Schedule, Service } from "./Pages/Pages.jsx"
 
 import "./App.css"
 import { Route, Routes } from "react-router-dom";
@@ -22,6 +22,7 @@ const App = () => {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/frequently" element={<Frequently />} />
         <Route path="/pricing" element={<Pricing />} />
+        <Route path="/schedule" element={<Schedule />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
 

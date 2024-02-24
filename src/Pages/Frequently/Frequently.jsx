@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 import Faq from '../../Components/Faq/Faq'
+import { GoQuestion } from "react-icons/go";
 import "./Frequently.css"
 import InnerLayout from '../../Layout/InnerLayout'
 
@@ -36,6 +37,8 @@ const Frequently = () => {
           <div>
             <h1>Couldn't find the answer you were looking for</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, obcaecati?</p>
+            <GoQuestion />
+            
           </div>
         </div>
       </section>
