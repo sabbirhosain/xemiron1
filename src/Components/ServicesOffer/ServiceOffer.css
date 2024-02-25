@@ -19,14 +19,16 @@
 }
 
 .service_offer_btn {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.30000001192092896px;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   padding: 10px;
-  font-size: 18px;
-  font-weight: 400;
   text-align: center;
   background-color: var(--SecondaryColor);
   border-bottom-left-radius: 8px;

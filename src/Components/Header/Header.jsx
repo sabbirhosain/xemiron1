@@ -19,16 +19,16 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink to={"/home"} className="nav-link">Home</NavLink>
+                <NavLink to={"/home"} className="nav-link nav_link">Home</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to={"/pricing"} className="nav-link">Pricing</NavLink>
+                <NavLink to={"/pricing"} className="nav-link nav_link">Pricing</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to={"/service"} className="nav-link">Service</NavLink>
+                <NavLink to={"/service"} className="nav-link nav_link">Service</NavLink>
               </li>
               <li className="nav-item dropdown position-static">
-                <Link to={"/product"} className="nav-link dropdown-toggle" data-bs-auto-close="false" data-bs-toggle="dropdown" aria-expanded="false">Product</Link>
+                <NavLink to={"/product"} className="nav-link nav_link dropdown-toggle" data-bs-auto-close="false" data-bs-toggle="dropdown" aria-expanded="false">Product</NavLink>
                 <ul className="dropdown-menu dropdown_mega_menu w-100">
                   <div className="d-lg-none">
                     <li><NavLink to={"/"} className="dropdown-item ps-0">Management</NavLink></li>
@@ -42,13 +42,13 @@ const Header = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <NavLink to={"/contact"} className="nav-link">Contact</NavLink>
+                <NavLink to={"/contact"} className="nav-link nav_link">Contact</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to={"/about"} className="nav-link">About us</NavLink>
+                <NavLink to={"/about"} className="nav-link nav_link">About us</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to={"/blogs"} className="nav-link">Blog</NavLink>
+                <NavLink to={"/blogs"} className="nav-link nav_link">Blog</NavLink>
               </li>
             </ul>
             <div>

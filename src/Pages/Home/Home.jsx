@@ -1,8 +1,9 @@
 // components
 import HBlogsCard from "../../Components/Blogs/Horizontal/HBlogsCard"
 import VBlogsCard from "../../Components/Blogs/Vertical/VBlogsCard"
-import image from "../../assets/home/image.png"
+import image from "../../assets/home/image1.png"
 import review from "../../assets/home/Review.png"
+import whatsapp from "../../assets/whatsapp.svg"
 import about from "../../assets/About-us.png"
 import shareIdea from "../../assets/shear.svg"
 import discuss from "../../assets/duscuss.png"
@@ -29,7 +30,7 @@ const Home = () => {
         <div className="hero_bg_img">
           <div className="hero_inner">
             <div className="container">
-              <div className="row align-items-center">
+              <div className="row">
                 <div className="col-12 col-lg-8 col-xxl-7 order-2 order-lg-1">
                   <div className='hero_category'>
                     <Link to={"#"} className='hero_category_title'>Website design</Link>
@@ -93,7 +94,7 @@ const Home = () => {
 
                 <div className="mt-4 d-lg-flex">
                   <Link to={"#"} className="share_idea_estimate_btn">Get Free Estimate</Link>
-                  <Link to={"#"} className="share_idea_whatsapp_btn">WhatsApp Now &emsp;<span><IoLogoWhatsapp /></span></Link>
+                  <Link to={"#"} className="share_idea_whatsapp_btn">WhatsApp Now &emsp;<img src={whatsapp} alt="" width={"25px"} /></Link>
                 </div>
               </div>
             </div>
@@ -186,13 +187,15 @@ const Home = () => {
       </section>
 
       <section className='client_testimonial'>
-        <div className="container">
-          <div>
-            <h1 className='testimonial_title'>This is what our honurable <br /> clients say about us</h1>
-            <p className='testimonial_paragaraph'>Our service provides a wide range of solutions to meet your needs. Whether you're looking for Software Development, <br /> Web development, Web Design, UI UX Design, Graphic Design, Digital Marketing, we have you covered.</p>
+        <div>
+          <div className="container">
+            <div>
+              <h1 className='testimonial_title'>This is what our honurable <br /> clients say about us</h1>
+              <p className='testimonial_paragaraph'>Our service provides a wide range of solutions to meet your needs. Whether you're looking for Software Development, <br /> Web development, Web Design, UI UX Design, Graphic Design, Digital Marketing, we have you covered.</p>
+            </div>
           </div>
+          <div className="testimonial_container"><Testimonial /></div>
         </div>
-        <div className="testimonial_container"><Testimonial /></div>
       </section>
 
       <section className='company_brand'>
@@ -208,7 +211,7 @@ const Home = () => {
               <div>
                 <h1 className='frequently_title'>Frequently</h1>
                 <p className='frequently_paragraph'>We have compiled a list of frequently asked questions to help you quickly find the information you need.</p>
-                <Link to={"#"} className='blogs_card_btn'>Contact Us</Link>
+                <Link to={"#"} className='frequently_btn'>Contact Us</Link>
               </div>
             </div>
             <div className="col-lg-6 col-md-6">
@@ -220,7 +223,7 @@ const Home = () => {
 
       <section className='explore_blogs'>
         <div className="container">
-          <div className='pb-4 text-center'>
+          <div className='pb-5 text-center'>
             <h1 className='explore_blogs_title'>Explore Our Blogs</h1>
             <p className='explore_blogs_paragraph'>Read our Insightful blogs posted everyday</p>
           </div>
@@ -249,6 +252,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      
     </HomeLayout>
   )
 }

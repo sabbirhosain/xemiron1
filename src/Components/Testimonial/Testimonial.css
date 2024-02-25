@@ -47,7 +47,7 @@
 
 .slick-dots li.slick-active button:before {
   opacity: .75;
-  color: green;
+  color: #25D366;
 }
 
 .testimonial_btn_left {

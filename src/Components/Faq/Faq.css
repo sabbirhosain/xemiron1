@@ -7,8 +7,15 @@
 }
 
 .accordion-button {
+  color: var(--SecondaryColor);
   border-radius: 8px;
-  background-color: #F0F7E7;
+  background-color: #DCFCE7;
+  padding: 20px 24px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .accordion-button:focus {
@@ -16,7 +23,12 @@
 }
 
 .accordion-button:not(.collapsed) {
-  font-weight: bold;
+  color: var(--SecondaryColor);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
   background-color: white;
 }
 
@@ -26,5 +38,11 @@
 }
 
 .frequently_text_box {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }

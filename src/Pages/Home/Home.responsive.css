@@ -1,11 +1,11 @@
 /* Dasktop */
 @media only screen and (min-width:1200px) and (max-width:1399px) {
   .hero_bg_img {
-    height: 130vh;
+    height: 140vh;
   }
 
   .hero_inner {
-    padding-top: 70px;
+    /* padding-top: 60px; */
   }
 
   .hero_title {
@@ -31,6 +31,10 @@
   }
 
   /* ====>>  Share idea <<======*/
+  .share_idea {
+    height: 110vh;
+  }
+
   .share_idea_title {
     font-size: 44px;
   }

@@ -137,15 +137,15 @@ export const works = [
     workCount: "03",
     workIcon: work3,
     workTitle: "Front-End Development",
-    workDescription: "Implement the visual aspects of the website using HTML, CSS, and JavaScript. Ensure responsive design for optimal viewing across various devices and screen sizes.",
+    workDescription: "Implement the visual aspects of the website using HTML, CSS, and JavaScript. Ensure responsive design for optimal viewing sizes.",
     bgColor: "#FAFAFF"
   },
   {
     id: 4,
     workCount: "04",
     workIcon: work4,
-    workTitle: "Back-End Development",
-    workDescription: "Build server-side logic and functionality using programming languages like PHP, Python, Ruby, or Node.js. Develop and integrate databases to store and retrieve data.",
+    workTitle: "Back-End Developments",
+    workDescription: "Build server-side logic and functionality using programming languages like PHP, Python, Ruby, or Node.js.",
     bgColor: "#EDFBF7"
   },
   {
