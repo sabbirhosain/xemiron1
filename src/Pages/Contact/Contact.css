@@ -11,7 +11,8 @@
   border-radius: 18px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: linear-gradient(0deg, rgba(36, 49, 11, 0.8) 100%, rgba(104, 167, 6, 1) 100%), url(../../assets/contact.jpg);
+  /* background-image: linear-gradient(0deg, rgba(36, 49, 11, 0.8) 100%, rgba(104, 167, 6, 1) 100%), url(../../assets/contact.jpg); */
+  background-image: url(../../assets/Rectangle.png);
   position: relative;
 }
 
@@ -26,6 +27,8 @@
   color: white;
   font-size: 48px;
   font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -1.75px;
 }
 
 /* ====>> Contact us <<==== */
@@ -37,19 +40,25 @@
   color: var(--SecondaryColor);
   font-size: 48px;
   font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -1.75px;
+  text-align: left;
 }
 
 .contact_paragraph {
   color: var(--ParagraphColor);
   font-size: 18px;
   font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: left;
   padding-top: 10px;
 }
 
 .contact_box {
   border: 1px solid rgba(242, 244, 247, 1);
   padding: 30px;
-  width: 90%;
+  width: 100%;
   border-radius: 16px;
 }
 
@@ -106,9 +115,11 @@
 
 .follow_us_text {
   color: var(--SecondaryColor);
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 600;
-
+  line-height: 36px;
+  letter-spacing: -0.5px;
+  text-align: left;
 }
 
 .social_follow_box {
@@ -124,8 +135,12 @@
 }
 
 .follow_icon_box {
+  color: var(--SecondaryColor);
   font-size: 16px;
   font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .socail_icon {
@@ -136,8 +151,64 @@
 }
 
 .contact_from {
-  /* height: 300px; */
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   padding: 40px;
+  border-radius: 18px;
+}
+
+.form-label {
+  color: var(--SecondaryColor);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.form-select,
+.form-control {
+  padding: 10px 14px;
+
+  &:focus {
+    box-shadow: none;
+  }
+
+  &::placeholder {
+    color: var(--ParagraphColor);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+}
+
+.form_submit_btn {
+  color: white;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  display: block;
+  border-radius: 8px;
+  padding: 16px 32px;
+  background-color: var(--PrimaryColor);
+  margin-top: 30px;
+}
+
+.form_whatsapp_btn {
+  color: var(--PrimaryColor);
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  display: block;
+  border-radius: 8px;
+  padding: 16px 32px;
+  border: 1px solid var(--PrimaryColor);
 }

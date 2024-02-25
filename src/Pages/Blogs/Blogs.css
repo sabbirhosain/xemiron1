@@ -9,15 +9,22 @@
 }
 
 .our_blogs_title {
+  color: var(--SecondaryColor);
   font-size: 48px;
   font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -1.75px;
   text-align: center;
   padding-bottom: 50px;
 }
 
 .filter_tab_link {
-  color: black;
-  font-size: 18px;
+  color: var(--SecondaryColor);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
 
   &:hover {
     color: var(--PrimaryBtnColor);

@@ -2,9 +2,8 @@ import VBlogsCard from '../../Components/Blogs/Vertical/VBlogsCard'
 import { GrLinkNext, GrLinkPrevious } from "react-icons/gr";
 import BlogsCarousel from '../../Components/Blogs/BlogsCarousel/BlogsCarousel';
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb';
-import { Helmet } from "react-helmet";
 import "./Blogs.css"
-import "./Blogs.responsive.css"
+// import "./Blogs.responsive.css"
 import { Link } from 'react-router-dom';
 import InnerLayout from '../../Layout/InnerLayout';
 

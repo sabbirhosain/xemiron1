@@ -5,7 +5,7 @@ import map from "../../assets/map.png"
 import Promise from '../../Components/Promise/Promise'
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 import "./About.css"
-import "./About.responsive.css"
+// import "./About.responsive.css"
 import InnerLayout from '../../Layout/InnerLayout'
 
 const About = () => {

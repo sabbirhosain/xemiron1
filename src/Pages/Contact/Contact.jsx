@@ -1,6 +1,5 @@
-import { Helmet } from 'react-helmet'
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
-import { FiUser } from "react-icons/fi";
+import whatsapp from "../../assets/whatsapp.svg"
 import { Link } from 'react-router-dom';
 import { FaLinkedin, FaRegEnvelopeOpen, FaFacebookSquare, FaTwitterSquare } from "react-icons/fa";
 import { GoArrowUpRight } from "react-icons/go";
@@ -31,8 +30,8 @@ const Contact = () => {
 
       <section className='contact_us'>
         <div className="container">
-          <div className="row">
-            <div className="col-md-8">
+          <div className="row justify-content-lg-between">
+            <div className="col-md-7">
               <div className='pb-3'>
                 <h1 className='contact_title'>Contact us</h1>
                 <p className='contact_paragraph'>Please contact us using any of these methods. We are waiting for your message or call. Lets schedule a meeting for brief discussion. </p>
@@ -126,8 +125,9 @@ const Contact = () => {
                     <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                   </div>
-                  <button type="button" class="btn btn-primary w-100">Primary</button>
-                  <button type="button" class="btn btn-danger w-100">Primary</button>
+                  <button type="button" class="form_submit_btn">Submit Now</button>
+                  <h6 className='py-4 text-center'>or</h6>
+                  <Link to={"#"} className="form_whatsapp_btn">WhatsApp Now &emsp;<img src={whatsapp} alt="" width={"25px"} /></Link>
                 </form>
               </div>
             </div>

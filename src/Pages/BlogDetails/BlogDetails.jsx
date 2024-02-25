@@ -1,4 +1,3 @@
-import { Helmet } from "react-helmet"
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb"
 import VBlogsCard from "../../Components/Blogs/Vertical/VBlogsCard"
 
@@ -75,7 +74,9 @@ const BlogDetails = () => {
                 <h2 className="blogs_desc_title">Reflections on Your Python Journey</h2>
                 <p className="blogs_desc_paragraph pt-4 pb-5">Pause and acknowledge the milestones you've achieved throughout this Python tutorial series. From mastering the basics to delving into advanced concepts, each step has contributed to your growth as a Python programmer.</p>
 
-                <img src={BlogsDetails1} className="img-fluid" alt="" />
+                <div className="blogs_description_img">
+                  <img src={BlogsDetails1} className="img-fluid" alt="" />
+                </div>
 
                 <span className="blogs_img_caption">Celebrating Your Achievements</span>
 
@@ -83,8 +84,10 @@ const BlogDetails = () => {
 
                 <p className="blogs_desc_paragraph pb-5">Elit nisi in eleifend sed nisi. Pulvinar at orci, proin imperdiet commodo consectetur convallis risus. Sed condimentum enim dignissim adipiscing faucibus consequat, urna. Viverra purus et erat auctor aliquam. Risus, volutpat vulputate posuere purus sit congue convallis aliquet. Arcu id augue ut feugiat donec porttitor neque. Mauris, neque ultricies eu vestibulum, bibendum quam lorem id. Dolor lacus, eget nunc lectus in tellus, pharetra, porttitor.</p>
 
-                <img src={BlogsDetails2} className="img-fluid" alt="" />
-
+                <div className="blogs_description_img">
+                  <img src={BlogsDetails2} className="img-fluid" alt="" />
+                </div>
+                
                 <span className="blogs_img_caption">Image caption goes here</span>
 
                 <h6 className="blogs_highlight_paragraph">"Ipsum sit mattis nulla quam nulla. Gravida id gravida ac enim mauris id. Non pellentesque congue eget consectetur turpis. Sapien, dictum molestie sem tempor. Diam elit, orci, tincidunt aenean tempus. Sapien, dictum molestie sem tempor. Diam elit, orci, tincidunt aenean tempus."</h6>

@@ -1,8 +1,9 @@
-.about_breadcrumb{
+.about_breadcrumb {
   position: absolute;
   left: 3%;
   height: 80px;
-  display: flex;align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .about_bg_img {
@@ -26,6 +27,8 @@
   color: white;
   font-size: 48px;
   font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -1.75px;
 }
 
 
@@ -35,8 +38,11 @@
 }
 
 .about_xemiron_paragraph {
+  color: var(--ParagraphColor);
   font-size: 18px;
   font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.30000001192092896px;
 }
 
 /* ====>> Xemiron Apart<<====== */
@@ -45,8 +51,11 @@
 }
 
 .xemiron_apart_title {
+  color: var(--SecondaryColor);
   font-size: 48px;
   font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -1.75px;
   text-align: center;
   padding-bottom: 50px;
 }
@@ -61,13 +70,21 @@
 }
 
 .client_across_title {
+  color: var(--SecondaryColor);
   font-size: 48px;
   font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -1.75px;
+  text-align: left;
 }
 
 .client_across_paragraph {
+  color: var(--ParagraphColor);
   font-size: 18px;
   font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: left;
 }
 
 .counter_box {
@@ -80,11 +97,16 @@
   color: var(--PrimaryColor);
   font-size: 48px;
   font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -1.75px;
 }
 
 .client_across_count_title {
+  color: var(--ParagraphColor);
   font-size: 20px;
   font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.30000001192092896px;
 }
 
 /* ===>> promise <<==== */

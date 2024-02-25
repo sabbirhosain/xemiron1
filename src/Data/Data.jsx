@@ -189,7 +189,7 @@ export const xemironApart = [
     id: 4,
     xemironIcon: xemironApart4,
     xemironTitle: "Proactive Mindset",
-    xemironDescription: "It is common for technical teams to get stressed with issues that arise in day-to-day operations. Our expert talent pool of skilled Developer’s is passionate about opportunities to solve complex challenges and innovate with future-proof custom solutions.",
+    xemironDescription: "It is common for technical teams to get stressed with issues that arise in day-to-day operations. Our expert talent pool of skilled Developer's is passionate about opportunities to solve complex challenges solutions.",
   },
   {
     id: 5,

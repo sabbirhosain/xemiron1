@@ -1,4 +1,4 @@
-.service_breadcrumb{
+.service_breadcrumb {
   position: absolute;
   top: 7%;
 }
@@ -17,30 +17,35 @@
 }
 
 .service_title {
+  color: var(--SecondaryColor);
   font-size: 48px;
   font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -1.75px;
+  text-align: left;
 }
 
 .service_paragraph {
+  color: var(--ParagraphColor);
   font-size: 18px;
   font-weight: 400;
-  padding: 20px 0px;
+  line-height: 30px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: left;
+  padding: 20px 0px 30px 0px;
 }
 
 .service_btn {
-  color: var(--PrimaryBtnColor);
+  color: white;
   font-size: 18px;
   font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
   border-radius: 8px;
-  border: 2px solid var(--PrimaryBtnColor);
+  background-color: var(--PrimaryBtnColor);
   padding: 16px 32px;
   transition: all 0.3s;
   display: inline-block;
-
-  &:hover {
-    color: white;
-    background-color: var(--PrimaryBtnColor);
-  }
 }
 
 /* ======>> Service Provide <<========= */
@@ -49,13 +54,23 @@
 }
 
 .service_provide_title {
+  color: var(--SecondaryColor);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -1.75px;
+  text-align: left;
   font-size: 48px;
   font-weight: 600;
 }
 
 .service_provide_paragraph {
+  color: var(--ParagraphColor);
   font-size: 18px;
   font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: left;
   padding: 20px 0px 40px 0px;
 }
 
@@ -70,8 +85,13 @@
 }
 
 .project_title {
+  color: var(--SecondaryColor);
   font-size: 48px;
   font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -1.75px;
+  text-align: left;
+
   padding-bottom: 40px;
 }
 

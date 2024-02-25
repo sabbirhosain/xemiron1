@@ -1,3 +1,7 @@
+.blog_card_border {
+  border: 1px solid #D0D5DD !important;
+}
+
 .blogs_card_box {
   padding: 20px;
   display: flex;
@@ -34,12 +38,13 @@
 }
 
 .blogs_card_btn {
+  color: var(--PrimaryBtnColor);
   font-size: 18px;
   font-weight: 500;
   line-height: 28px;
   letter-spacing: 0em;
+  text-align: left;
   display: inline-block;
-  color: var(--PrimaryBtnColor);
   border: 1px solid var(--PrimaryBtnColor);
   padding: 12px 28px;
   border-radius: 8px;

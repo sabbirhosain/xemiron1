@@ -12,7 +12,7 @@ import VBlogsCard from '../../Components/Blogs/Vertical/VBlogsCard'
 import { MdArrowOutward } from 'react-icons/md'
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 import "./Service.css"
-import "./Service.responsive.css"
+// import "./Service.responsive.css"
 import InnerLayout from '../../Layout/InnerLayout'
 
 const Service = () => {

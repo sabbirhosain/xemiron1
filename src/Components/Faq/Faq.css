@@ -38,11 +38,14 @@
 }
 
 .frequently_text_box {
-  font-size: 14px;
+  /* font-size: 14px; */
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
 }
