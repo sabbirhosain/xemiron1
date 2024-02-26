@@ -1,4 +1,5 @@
 .blog_card_border {
+  border-radius: 18px;
   border: 1px solid #D0D5DD !important;
 }
 
@@ -8,6 +9,7 @@
   justify-content: space-between;
   flex-wrap: nowrap;
   height: auto;
+  border-radius: 18px;
 }
 
 .blogs_img {

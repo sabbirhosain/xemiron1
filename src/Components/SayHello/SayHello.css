@@ -54,13 +54,16 @@
   transition: all 0.3s;
 
   &:hover {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(247deg, rgba(30, 42, 50, 0.20) 0.02%, rgba(30, 42, 50, 0.20) 98.6%), linear-gradient(112deg, #354221 -15.84%, #68A706 60.63%, #3A4F19 127.7%);
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(247deg, rgba(30, 42, 50, 0.20) 0.02%, rgba(30, 42, 50, 0.20) 98.6%), linear-gradient(112deg, #354221 -15.84%, #68A706 60.63%, #3A4F19 127.7%); */
+    background: linear-gradient(64.42deg, rgba(231, 247, 207, 0.2) -0.86%, rgba(0, 0, 0, 0) 77.04%),
+      linear-gradient(253.54deg, rgba(37, 211, 102, 0.2) -3.95%, rgba(229, 246, 202, 0.2) 97.51%),
+      linear-gradient(75.07deg, #E3F6C7 -34.42%, #25D366 130.71%);
     cursor: pointer;
   }
 
   &:hover .sayhello_right_mini_title,
   &:hover .sayhello_right_title {
-    color: white;
+    color: var(--SecondaryColor);
   }
 }
 

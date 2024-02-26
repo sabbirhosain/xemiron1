@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { FaLinkedin, FaRegEnvelopeOpen, FaFacebookSquare, FaTwitterSquare } from "react-icons/fa";
 import { GoArrowUpRight } from "react-icons/go";
 import { IoLocationOutline } from "react-icons/io5";
-import { FaRegClock } from "react-icons/fa6";
+import { LuClock3 } from "react-icons/lu";
 import { LuPhone } from "react-icons/lu";
 import "./Contact.css"
 
@@ -51,7 +51,7 @@ const Contact = () => {
 
                   <div className="col-6">
                     <div className='location_box mb-4'>
-                      <div className='location_icon_box'><FaRegClock className='location_icon' /></div>
+                      <div className='location_icon_box'><LuClock3 className='location_icon' /></div>
                       <div className='location_map'>
                         <h6 className='location_name m-0'>Available 24/7</h6>
                       </div>
@@ -97,35 +97,35 @@ const Contact = () => {
             <div className="col-md-4">
               <div className='contact_from'>
                 <form action="" method="post">
-                  <div class="mb-3">
-                    <label for="yourName" class="form-label">Name</label>
-                    <input type="email" class="form-control" id="yourName" placeholder="Sabbir Hosain" />
+                  <div className="mb-3">
+                    <label for="yourName" className="form-label">Name</label>
+                    <input type="email" className="form-control" id="yourName" placeholder="Sabbir Hosain" />
                   </div>
-                  <div class="mb-3">
-                    <label for="emailAddress" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com" />
+                  <div className="mb-3">
+                    <label for="emailAddress" className="form-label">Email</label>
+                    <input type="email" className="form-control" id="emailAddress" placeholder="name@example.com" />
                   </div>
-                  <div class="mb-3">
-                    <label for="phoneNumber" class="form-label">Phone</label>
-                    <input type="email" class="form-control" id="phoneNumber" placeholder="+880 123 456 789" />
+                  <div className="mb-3">
+                    <label for="phoneNumber" className="form-label">Phone</label>
+                    <input type="email" className="form-control" id="phoneNumber" placeholder="+880 123 456 789" />
                   </div>
                   <div className='mb-3'>
-                    <label for="phoneNumber" class="form-label">I want to</label>
-                    <select class="form-select">
-                      <option selected>Build a website</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                      <option value="3">Three</option>
-                      <option value="3">Three</option>
-                      <option value="3">Three</option>
+                    <label for="phoneNumber" className="form-label">I want to</label>
+                    <select className="form-select select_contact_dropdown">
+                      <option>Build a website</option>
+                      <option value={"one"}>One</option>
+                      <option value={"one"}>One</option>
+                      <option value={"one"}>One</option>
+                      <option value={"one"}>One</option>
+                      <option value={"one"}>One</option>
+                      <option value={"one"}>One</option>
                     </select>
                   </div>
-                  <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <div className="mb-3">
+                    <label for="exampleFormControlTextarea1" className="form-label">Example textarea</label>
+                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                   </div>
-                  <button type="button" class="form_submit_btn">Submit Now</button>
+                  <button type="button" className="form_submit_btn">Submit Now</button>
                   <h6 className='py-4 text-center'>or</h6>
                   <Link to={"#"} className="form_whatsapp_btn">WhatsApp Now &emsp;<img src={whatsapp} alt="" width={"25px"} /></Link>
                 </form>

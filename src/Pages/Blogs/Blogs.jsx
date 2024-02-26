@@ -36,11 +36,13 @@ const Blogs = () => {
             </div>
 
             <div>
-              <select class="form-select blogs_filter_select">
-                <option selected>More Topic</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+              <select className="form-select blogs_filter_select">
+                <option>More Topic</option>
+                <option value={"one"}>One</option>
+                <option value={"one"}>One</option>
+                <option value={"one"}>One</option>
+                <option value={"one"}>One</option>
+                <option value={"one"}>One</option>
               </select>
             </div>
           </nav>
@@ -84,14 +86,14 @@ const Blogs = () => {
           <div className='d-flex align-items-center justify-content-between border-top pt-3 mt-4'>
             <button type="button" className='d-flex align-items-center'><GrLinkPrevious /> Previous</button>
             <nav aria-label="Page navigation example">
-              <ul class="pagination">
-                <li class="page-item"><Link to={""} class="page-link active">1</Link></li>
-                <li class="page-item"><Link to={""} class="page-link">2</Link></li>
-                <li class="page-item"><Link to={""} class="page-link">3</Link></li>
-                <li class="page-item"><Link to={""} class="page-link">...</Link></li>
-                <li class="page-item"><Link to={""} class="page-link">8</Link></li>
-                <li class="page-item"><Link to={""} class="page-link">9</Link></li>
-                <li class="page-item"><Link to={""} class="page-link">10</Link></li>
+              <ul className="pagination">
+                <li className="page-item"><Link to={""} className="page-link active">1</Link></li>
+                <li className="page-item"><Link to={""} className="page-link">2</Link></li>
+                <li className="page-item"><Link to={""} className="page-link">3</Link></li>
+                <li className="page-item"><Link to={""} className="page-link">...</Link></li>
+                <li className="page-item"><Link to={""} className="page-link">8</Link></li>
+                <li className="page-item"><Link to={""} className="page-link">9</Link></li>
+                <li className="page-item"><Link to={""} className="page-link">10</Link></li>
               </ul>
             </nav>
             <button type="button" className='d-flex align-items-center'>Next <GrLinkNext /></button>

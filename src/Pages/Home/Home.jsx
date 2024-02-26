@@ -1,25 +1,12 @@
 // components
-import HBlogsCard from "../../Components/Blogs/Horizontal/HBlogsCard"
-import VBlogsCard from "../../Components/Blogs/Vertical/VBlogsCard"
-import image from "../../assets/home/image1.png"
-import review from "../../assets/home/Review.png"
-import whatsapp from "../../assets/whatsapp.svg"
-import about from "../../assets/About-us.png"
-import shareIdea from "../../assets/shear.svg"
-import discuss from "../../assets/duscuss.png"
-import hospitalManagement from "../../assets/hospital-management.png"
-import { IoLogoWhatsapp } from "react-icons/io";
-import { HiOutlineUserGroup } from "react-icons/hi";
-import { Link } from 'react-router-dom'
+import { HBlogsCard, VBlogsCard, Work, Testimonial, CompanyBrand, Faq, ServiceOffer } from "../../Components/Components"
+import { Home_bg_image, about_image, discuss_image, hospitalManagement_image, review_image, shareIdea_image, whatsapp_image } from "../../Data/Images"
 import { servesOffer, works } from '../../Data/Data'
+import { HiOutlineUserGroup, MdArrowOutward } from "../../Data/Icons"
+import { Link } from 'react-router-dom'
 import "./Home.css"
-import "./Home.responsive.css"
-import Work from '../../Components/Work/Work'
-import Testimonial from '../../Components/Testimonial/Testimonial'
-import CompanyBrand from '../../Components/CompanyBrands/CompanyBrand'
-import Faq from '../../Components/Faq/Faq'
-import { MdArrowOutward } from 'react-icons/md'
-import ServiceOffer from '../../Components/ServicesOffer/ServiceOffer'
+// import "./Home.responsive.css"
+
 import HomeLayout from "../../Layout/HomeLayout"
 
 const Home = () => {
@@ -49,8 +36,8 @@ const Home = () => {
                 </div>
                 <div className="col-12 col-lg-4 col-xxl-4 order-1 order-lg-2 ">
                   <div className="hero_img_box">
-                    <img src={image} className="img-fluid hero_img" alt="" />
-                    <img src={review} className="img-fluid hero_review" alt="" />
+                    <img src={Home_bg_image} className="img-fluid hero_img" alt="" />
+                    <img src={review_image} className="img-fluid hero_review" alt="" />
                   </div>
                 </div>
               </div>
@@ -76,7 +63,7 @@ const Home = () => {
             </div>
             <div className="col-md-6 col-lg-6 order-1 order-lg-2">
               <div>
-                <img src={about} className="img-fluid" alt="" />
+                <img src={about_image} className="img-fluid" alt="" />
               </div>
             </div>
           </div>
@@ -94,13 +81,13 @@ const Home = () => {
 
                 <div className="mt-4 d-lg-flex">
                   <Link to={"#"} className="share_idea_estimate_btn">Get Free Estimate</Link>
-                  <Link to={"#"} className="share_idea_whatsapp_btn">WhatsApp Now &emsp;<img src={whatsapp} alt="" width={"25px"} /></Link>
+                  <Link to={"#"} className="share_idea_whatsapp_btn">WhatsApp Now &emsp;<img src={whatsapp_image} alt="" width={"25px"} /></Link>
                 </div>
               </div>
             </div>
             <div className="col-md-6 col-lg-5">
               <div className="share_img_box">
-                <img src={shareIdea} className="share_img" alt="" />
+                <img src={shareIdea_image} className="share_img" alt="" />
               </div>
             </div>
           </div>
@@ -132,7 +119,7 @@ const Home = () => {
       <section className='discuss'>
         <div className="container">
           <div>
-            <img src={discuss} className='discuss_img' alt="" />
+            <img src={discuss_image} className='discuss_img' alt="" />
           </div>
         </div>
       </section>
@@ -178,7 +165,7 @@ const Home = () => {
               </div>
               <div className="col-md-6 col-lg-6">
                 <div className="text-end">
-                  <img src={hospitalManagement} className="img-fluid" alt="" />
+                  <img src={hospitalManagement_image} className="img-fluid" alt="" />
                 </div>
               </div>
             </div>
@@ -252,7 +239,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      
+
     </HomeLayout>
   )
 }
