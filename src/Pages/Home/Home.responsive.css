@@ -1,344 +1,85 @@
-/* Dasktop */
-@media only screen and (min-width:1200px) and (max-width:1399px) {
+/* ====================== 
+Mobile Screen Responsive
+==========================*/
+@media only screen and (max-width: 480px) {
   .hero_bg_img {
-    height: 140vh;
+    height: 150vh;
   }
 
   .hero_inner {
-    /* padding-top: 60px; */
-  }
-
-  .hero_title {
-    font-size: 66px;
-  }
-
-  .hero_paragraph {
-    font-size: 16px;
-  }
-
-  .hero_getstart_btn,
-  .hero_explore_btn {
-    padding: 14px 28px;
-  }
-
-  /* ===>> About <<==== */
-  .about_title {
-    font-size: 44px;
-  }
-
-  .about_paragraph {
-    font-size: 16px;
-  }
-
-  /* ====>>  Share idea <<======*/
-  .share_idea {
-    height: 110vh;
-  }
-
-  .share_idea_title {
-    font-size: 44px;
-  }
-
-  .share_idea_paragraph {
-    font-size: 16px;
-  }
-
-  /* ====>> Service Offering <<=== */
-  .service_offer_text {
-    font-size: 44px;
-  }
-
-  .service_offer_paragraph {
-    font-size: 16px;
-  }
-
-  .service_offer_btn {
-    font-size: 16px;
-  }
-
-  /* ====>> We Works <<====*/
-  .works_title {
-    font-size: 44px;
-  }
-
-  .works_paragaraph {
-    font-size: 16px;
-  }
-
-  .work_title {
-    font-size: 28px;
-  }
-
-  /* ====>> Hospital Managment <<====*/
-  .hospital_container {
-    height: 80vh;
-  }
-
-  .hospital_title {
-    font-size: 44px;
-  }
-
-  .hospital_paragraph {
-    font-size: 16px;
-  }
-
-  /* ====>> Client Testimonial <<===== */
-  .testimonial_title {
-    font-size: 44px;
-  }
-
-  .testimonial_paragaraph {
-    font-size: 16px;
-  }
-
-  .testimonial_container {
-    padding-left: 8%;
-  }
-
-  /* ===>> Frequently <<=== */
-  .frequently_title {
-    font-size: 44px;
-  }
-
-  .frequently_paragraph {
-    font-size: 16px;
-
-  }
-
-  /* ====>> Explore Blogs <<===== */
-  .explore_blogs_title {
-    font-size: 44px;
-  }
-
-  .explore_blogs_paragraph {
-    font-size: 16px;
-  }
-
-  .blogs_more_btn {
-    padding: 12px 28px;
-  }
-
-
-}
-
-/* Mobile */
-@media only screen and (max-width: 576px) {
-
-  /* =====>> Hero Section <<==== */
-  .hero_bg_img {
-    height: 160vh;
-    align-items: start;
+    padding: 0;
   }
 
   .hero_category {
-    margin-top: 50px;
     margin-bottom: 10px;
   }
 
   .hero_category_title {
     font-size: 12px;
-    margin-bottom: 10px;
-    border-radius: 8px;
+    margin-bottom: 15px;
   }
 
   .hero_title {
     font-size: 24px;
-    margin-bottom: 0px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
   }
 
   .hero_paragraph {
     font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 10px 0px 20px 0px;
   }
 
   .hero_explore_btn,
   .hero_getstart_btn {
     display: block;
-    width: 100%;
     text-align: center;
-    margin: 0px;
-    font-style: 14px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
     padding: 12px 24px;
   }
 
   .hero_explore_btn {
-    margin-top: 20px;
+    border: 2px solid;
+    margin: 20px 0px 0px;
   }
 
-  /* =====>> About Section <<===== */
-  .about_us {
-    padding: 0px 0px;
-    margin-top: -210px;
+  .hero_img_box {
+    margin-top: 100px;
     margin-bottom: 50px;
   }
 
-  .about_title {
-    font-size: 24px;
-    padding-top: 30px;
-  }
-
-  .about_paragraph {
-    font-size: 14px;
-  }
-
-  /* =====>> Share Idea Start <<====== */
-
-  .share_idea {
-    height: 120vh;
-    align-items: start;
-  }
-
-  .share_idea_title {
-    font-size: 24px;
-  }
-
-  .share_idea_paragraph {
-    font-size: 14px;
-
-  }
-
-  /* .share_img_box {
+  .hero_review {
     position: absolute;
-    width: 90%;
-    height: 350px;
-    top: 65%;
-    left: 5%;
-    right: 5%;
-    overflow-y: scroll;
-    border-radius: 25px;
+    bottom: 0%;
+    right: 0%;
+    z-index: 999;
   }
+
+
+
+
+
+
 
   .share_img {
-    width: 100%;
-    height: 840px;
-    object-fit: cover;
-    object-position: top center;
-    margin-top: -28px;
-    background-color: white;
-  } */
+    display: none;
 
-  /* .share_img_box:hover .share_img {
-    object-position: center center;
-  } */
-
-
-  .share_idea_estimate_btn,
-  .share_idea_whatsapp_btn {
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding: 12px 24px;
-    margin: 0;
-  }
-
-  .share_idea_whatsapp_btn {
-    margin-top: 20px;
-  }
-
-  /* =====>> Service Offering <<===== */
-  .service_offering {
-    padding: 0px 0px;
-  }
-
-
-  .service_offer_text {
-    font-size: 24px;
-  }
-
-  .service_offer_paragraph {
-    font-size: 14px;
-  }
-
-  /* ======>> we works <<====== */
-  .we_works {
-    padding-top: 0px;
-  }
-
-  .works_title {
-    font-size: 24px;
-  }
-
-  .works_paragaraph {
-    font-size: 14px;
-  }
-
-  /* =====>> Hospital Management Start <<====*/
-
-  .hospital_management {
-    margin: 50px 0px;
-  }
-
-  .hospital_container {
-    height: 120vh;
-    background-color: rgb(245, 245, 245);
-    overflow: hidden;
-    padding-left: 30px;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-    display: flex;
-    align-items: center;
-  }
-
-  .hospital_mini_title {
-    color: var(--SecondaryColor);
-    font-size: 24px;
-    font-weight: 600;
-  }
-
-  .hospital_title {
-    font-size: 24px;
-  }
-
-  .hospital_paragraph {
-    font-size: 14px;
-  }
-
-  /* =====>> Client Testimonials <<===== */
-  .client_testimonial {
-    padding: 0px 0px;
-    margin-bottom: 0px;
-  }
-
-  .testimonial_title {
-    font-size: 24px;
-  }
-
-  .testimonial_paragaraph {
-    font-size: 14px;
-  }
-
-  /* ======>> Company Brands <<===== */
-  .company_brand {
-    padding-bottom: 0px;
-  }
-
-  /* =====>> Frequently <<=====*/
-  .frequently {
-    padding: 0px 0px;
-  }
-
-  .frequently_title {
-    font-size: 24px;
-    font-weight: 600;
-  }
-
-  .frequently_paragraph {
-    font-size: 14px;
-  }
-
-  /* ===>> Blogs Responsive Start <<===== */
-  .explore_blogs_title {
-    font-size: 24px;
-  }
-
-  .explore_blogs_paragraph {
-    font-size: 14px;
-  }
-
-  .blogs_more_btn {
-    display: block;
-    width: 100%;
-    font-size: 16px;
-    padding: 12px 32px;
-    margin-top: 20px;
   }
 }
+
+@media only screen and (min-width: 401px)and (max-width: 768px) {}
+
+@media only screen and (min-width: 769px)and (max-width: 1024px) {}
+
+@media only screen and (min-width: 1025px)and (max-width: 1200px) {}
+
+@media only screen and (min-width:1201px) and (max-width:1399px) {}

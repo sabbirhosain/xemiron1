@@ -8,11 +8,18 @@
   z-index: 9999;
 }
 
+.navbar-toggler {
+  border: none;
+}
+
 .navbar-toggler:focus {
   outline: none;
   box-shadow: none;
 }
 
+.navbar-toggler-icon {
+  background-image: url(../../assets/header/menu.svg);
+}
 
 .nav-link {
   font-size: 16px;

@@ -32,7 +32,7 @@ const Schedule = () => {
 
           <div className="row justify-content-between">
             <div className="col-lg-7">
-              <div>
+              <div className="pt-4">
                 <h1 className="select_date_title">Select Date</h1>
                 <div className="d-flex align-items-center justify-content-between pt-5 pb-5">
                   <span className="time_zome"><IoEarthOutline  className="me-2"/>Time Zone</span>
@@ -59,7 +59,7 @@ const Schedule = () => {
             <div className="col-lg-5">
               <div className="schedule_time_box">
                 <h4 className="select_time_title">Select Time</h4>
-                <h5 className="select_mins"><LuClock3 /> 30mins</h5>
+                <h5 className="select_mins"><LuClock3 className="me-2"/> 30mins</h5>
                 <div>
                   <button type="submit" className="time_select_btn">7:00AM</button>
                   <button type="submit" className="time_select_btn">7:00AM</button>

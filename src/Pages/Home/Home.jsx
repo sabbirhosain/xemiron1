@@ -5,7 +5,7 @@ import { servesOffer, works } from '../../Data/Data'
 import { HiOutlineUserGroup, MdArrowOutward } from "../../Data/Icons"
 import { Link } from 'react-router-dom'
 import "./Home.css"
-// import "./Home.responsive.css"
+import "./Home.responsive.css"
 
 import HomeLayout from "../../Layout/HomeLayout"
 
@@ -26,7 +26,7 @@ const Home = () => {
                     <Link to={"#"} className='hero_category_title'>And much more</Link>
                   </div>
                   <div>
-                    <h1 className='hero_title'>Need to build a website or Custom Web Application⁉️</h1>
+                    <h1 className='hero_title'>Need to build a website or Custom Web Application!?</h1>
                     <p className='hero_paragraph'>At Xemiron IT Solutions, we specialize in business digitalization. Whether you’re launching a new business or already own a company and need a website, mobile app, or custom management software, we can help. Our team comprises designers, developers, digital marketing experts, and specialists from various IT fields.</p>
                   </div>
                   <div className="pt-lg-3">

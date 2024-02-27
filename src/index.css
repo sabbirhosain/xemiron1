@@ -17,6 +17,7 @@
 }
 
 html {
+  object-position: top;
   scroll-behavior: smooth;
 }
 
