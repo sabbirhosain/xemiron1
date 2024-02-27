@@ -188,8 +188,41 @@ Mobile Screen Responsive
     text-align: center;
   }
 
+  /* =========================
+       Discuss Section
+============================*/
+  .discuss {
+    padding: 0px 0px;
+  }
 
+  /* =========================
+       Discuss Section
+============================*/
+  .we_works {
+    padding-top: 50px;
+  }
 
+  .works_text_box {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .works_title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+    text-align: center;
+
+  }
+
+  .works_paragaraph {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 401px)and (max-width: 768px) {}

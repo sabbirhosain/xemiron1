@@ -9,6 +9,9 @@ import { useEffect, useState } from "react";
 const HomeNavbar = () => {
 
   const [isSticky, setSticky] = useState(false);
+  const [navBg, setNavBg] = useState(false)
+
+  // navbar sticky
   useEffect(() => {
     const handelScroll = () => {
       const offset = window.scrollY;
@@ -21,17 +24,19 @@ const HomeNavbar = () => {
     }
   }, []);
 
+  // page scroll top
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth', })
   };
 
+  // home navbar transprant background
   const navbarBG = () => {
-    setSticky(!isSticky)
+    setNavBg(!navBg)
   }
 
   return (
     <>
-      <nav className={`navbar navbar-expand-lg home_navbar ${isSticky ? "home_navbar_sticky" : ""}`}>
+      <nav className={`navbar navbar-expand-lg home_navbar ${isSticky ? "home_navbar_sticky" : ""} ${navBg ? "home_navbar_sticky" : ""}`}>
         <div className="container">
           <Link to={"/"} onClick={scrollToTop} className="navbar-brand">
             <img src={logo} className="img-fluid" />
