@@ -12,39 +12,43 @@ const HomeNavbar = () => {
   useEffect(() => {
     const handelScroll = () => {
       const offset = window.scrollY;
-      setSticky(offset > 100)
+      setSticky(offset > 50)
     };
 
     window.addEventListener("scroll", handelScroll);
-
     return () => {
       window.removeEventListener("scroll", handelScroll)
     }
-
-
   }, []);
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth', })
+  };
+
+  const navbarBG = () => {
+    setSticky(!isSticky)
+  }
 
   return (
     <>
       <nav className={`navbar navbar-expand-lg home_navbar ${isSticky ? "home_navbar_sticky" : ""}`}>
         <div className="container">
-          <Link to={"/"} className="navbar-brand">
+          <Link to={"/"} onClick={scrollToTop} className="navbar-brand">
             <img src={logo} className="img-fluid" />
           </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon" onClick={navbarBG}></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink to={"/home"} className="nav-link nav_link">Home</NavLink>
+                <NavLink to={"/home"} onClick={scrollToTop} className="nav-link nav_link">Home</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to={"/pricing"} className="nav-link nav_link">Pricing</NavLink>
+                <NavLink to={"/pricing"} onClick={scrollToTop} className="nav-link nav_link">Pricing</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to={"/service"} className="nav-link nav_link">Service</NavLink>
+                <NavLink to={"/service"} onClick={scrollToTop} className="nav-link nav_link">Service</NavLink>
               </li>
               <li className="nav-item dropdown position-static">
                 <NavLink to={"/product"} className="nav-link nav_link dropdown-toggle" data-bs-auto-close="false" data-bs-toggle="dropdown" aria-expanded="false">Product</NavLink>
@@ -61,17 +65,17 @@ const HomeNavbar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <NavLink to={"/contact"} className="nav-link nav_link">Contact</NavLink>
+                <NavLink to={"/contact"} onClick={scrollToTop} className="nav-link nav_link">Contact</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to={"/about"} className="nav-link nav_link">About us</NavLink>
+                <NavLink to={"/about"} onClick={scrollToTop} className="nav-link nav_link">About us</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to={"/blogs"} className="nav-link nav_link">Blog</NavLink>
+                <NavLink to={"/blogs"} onClick={scrollToTop} className="nav-link nav_link">Blog</NavLink>
               </li>
             </ul>
             <div>
-              <Link to={"/schedule"} className="nav_btn ms-lg-3"><FaRegClock />&emsp;Schedule Meeting</Link>
+              <Link to={"/schedule"} onClick={scrollToTop} className="nav_btn ms-lg-3"><FaRegClock />&emsp;Schedule Meeting</Link>
             </div>
           </div>
         </div>

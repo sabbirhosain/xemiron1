@@ -3,10 +3,6 @@ Mobile Screen Responsive
 ==========================*/
 @media only screen and (max-width: 480px) {
 
-  body {
-    overflow-x: hidden;
-  }
-
   .hero_bg_img {
     height: 140vh;
   }

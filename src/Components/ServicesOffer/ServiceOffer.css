@@ -78,10 +78,17 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 480px) {
+  .service_offer_overlay {
+    height: 84%;
+  }
+
   .service_offer_btn {
     font-size: 12px;
-    text-align: start;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
     padding: 5px 0px;
   }
 
