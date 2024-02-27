@@ -72,7 +72,7 @@ const Home = () => {
 
       <section className="share_idea">
         <div className="container">
-          <div className="row align-items-lg-center justify-content-lg-between py-5">
+          <div className="row align-items-lg-center justify-content-lg-between py-md-5">
             <div className="col-md-6 col-lg-7">
               <div>
                 <h1 className="share_idea_title">Just share your idea! Let us take it from there for you until the finish line, and you can simply relax and observe 🙂</h1>
@@ -81,7 +81,7 @@ const Home = () => {
 
                 <div className="mt-4 d-lg-flex">
                   <Link to={"#"} className="share_idea_estimate_btn">Get Free Estimate</Link>
-                  <Link to={"#"} className="share_idea_whatsapp_btn">WhatsApp Now &emsp;<img src={whatsapp_image} alt="" width={"25px"} /></Link>
+                  <Link to={"#"} className="share_idea_whatsapp_btn">WhatsApp Now &emsp;<img src={whatsapp_image} alt="" className="share_idea_whatsapp_icon" width={"25px"} /></Link>
                 </div>
               </div>
             </div>
