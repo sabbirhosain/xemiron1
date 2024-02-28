@@ -7,7 +7,7 @@ Mobile Screen Responsive
   }
 
   .service_bg_img {
-    height: 90vh;
+    height: 85vh;
     background-image: none;
     background-color: white;
   }
@@ -44,7 +44,7 @@ Mobile Screen Responsive
       Service Provide
 =============================*/
   .service_provide {
-    margin: 50px 0px 50px 0px;
+    margin: 30px 0px 50px 0px;
   }
 
   .service_provide_title {
