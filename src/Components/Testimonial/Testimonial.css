@@ -80,14 +80,9 @@
 @media only screen and (max-width: 480px) {
   .slick-dots {
     position: absolute;
+    left: 0%;
     bottom: -7%;
-    left: 37%;
-    display: block;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: start;
+    text-align: center;
   }
 
   .testimonial_btn_left {

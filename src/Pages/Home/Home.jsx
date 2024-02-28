@@ -6,7 +6,6 @@ import { HiOutlineUserGroup, MdArrowOutward } from "../../Data/Icons"
 import { Link } from 'react-router-dom'
 import "./Home.css"
 import "./Home.responsive.css"
-
 import HomeLayout from "../../Layout/HomeLayout"
 
 const Home = () => {
