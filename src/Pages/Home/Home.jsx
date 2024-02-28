@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 import "./Home.css"
 import "./Home.responsive.css"
 import HomeLayout from "../../Layout/HomeLayout"
+import BrandSlider from "../../Components/CompanyBrands/BrandSlider/BrandSlider"
 
 const Home = () => {
   return (
@@ -186,8 +187,9 @@ const Home = () => {
 
       <section className='company_brand'>
         <div className="container">
-          <CompanyBrand />
+          <div className="d-none d-lg-block"><CompanyBrand /></div>
         </div>
+        <div className="d-lg-none"><BrandSlider /></div>
       </section>
 
       <section className='frequently'>

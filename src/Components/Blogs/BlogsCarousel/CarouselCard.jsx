@@ -3,6 +3,9 @@ import "./CarouselCard.css"
 import { MdArrowOutward } from "react-icons/md"
 
 const CarouselCard = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth', })
+  };
   return (
     <>
       <div className="blog_bg_img">
@@ -14,7 +17,7 @@ const CarouselCard = () => {
                 <h1 className="blogs_banner_title">Python Learning Resources</h1>
                 <p className="blogs_banner_paragraph">Introduction: As a bonus to conclude our Python tutorial series, we ve
                   curated a list of top to support your continued learning …</p>
-                <Link to={"/blogs"} className="blogs_banner_btn">Read More &ensp;<MdArrowOutward /></Link>
+                <Link to={"/blogs"} onClick={scrollToTop} className="blogs_banner_btn">Read More &ensp;<MdArrowOutward /></Link>
               </div>
             </div>
           </div>

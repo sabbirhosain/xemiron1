@@ -4,6 +4,9 @@ import { Link } from "react-router-dom"
 import { MdArrowOutward } from "react-icons/md";
 
 const HBlogsCard = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth', })
+  };
   return (
     <>
       <div className="col-sm-12 col-md-6 col-lg-6">
@@ -13,7 +16,7 @@ const HBlogsCard = () => {
             <div className="blogs_text_box">
               <h5 className="blogs_title">Advanced Python Web <br className="d-none d-lg-block" /> Development</h5>
               <p className="blogs_text">Introduction: Welcome to the Advanced Python Web Development tutorial series...</p>
-              <Link to={"#"} className="blogs_card_btn">Read More &ensp;<MdArrowOutward /></Link>
+              <Link to={"/blog-details/123"} onClick={scrollToTop} className="blogs_card_btn">Read More &ensp;<MdArrowOutward /></Link>
             </div>
           </div>
         </div>

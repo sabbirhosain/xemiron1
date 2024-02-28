@@ -344,6 +344,13 @@ Mobile Screen Responsive
   /* =========================
      Frequently
 ============================*/
+  .company_brand {
+    padding-top: 0px;
+  }
+
+  /* =========================
+     Frequently
+============================*/
 
   .frequently {
     padding: 0px 0px 0px 0px;
