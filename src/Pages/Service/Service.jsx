@@ -12,8 +12,9 @@ import VBlogsCard from '../../Components/Blogs/Vertical/VBlogsCard'
 import { MdArrowOutward } from 'react-icons/md'
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 import "./Service.css"
-// import "./Service.responsive.css"
+import "./Service.responsive.css"
 import InnerLayout from '../../Layout/InnerLayout'
+import BrandSlider from '../../Components/CompanyBrands/BrandSlider/BrandSlider'
 
 const Service = () => {
   return (
@@ -27,7 +28,7 @@ const Service = () => {
               </div>
             </div>
             <div className="row align-items-lg-center">
-              <div className="col-lg-6">
+              <div className="col-lg-6 order-2 order-lg-1">
                 <div>
                   <h1 className='service_title'>Our Services</h1>
                   <p className='service_paragraph'>We simplify and enhance your business's digital transformation — from ideation and brand development to customer acquisition and scaling. Our expertise supports you at every step of your journey.
@@ -35,7 +36,7 @@ const Service = () => {
                   <Link to={""} className='service_btn'>Get Start Now</Link>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 order-1 order-lg-2">
                 <div className='text-lg-end'>
                   <img src={service} className='img-fluid' alt="" />
                 </div>
@@ -81,9 +82,10 @@ const Service = () => {
       </section>
 
       <section className='company_brand service_company_brand'>
-        <div className="container">
-          <CompanyBrand />
+      <div className="container">
+          <div className="d-none d-lg-block"><CompanyBrand /></div>
         </div>
+        <div className="d-lg-none"><BrandSlider /></div>
       </section>
 
       <section className='client_testimonial'>
@@ -103,7 +105,7 @@ const Service = () => {
               <div>
                 <h1 className='frequently_title'>Frequently</h1>
                 <p className='frequently_paragraph'>We have compiled a list of frequently asked questions to help you quickly find the information you need.</p>
-                <Link to={"#"} className='blogs_card_btn'>Contact Us</Link>
+                <Link to={"#"} className='frequently_btn'>Contact Us</Link>
               </div>
             </div>
             <div className="col-lg-6 col-md-6">
@@ -115,7 +117,7 @@ const Service = () => {
 
       <section className='explore_blogs'>
         <div className="container">
-          <div className='pb-5 text-center'>
+          <div className='pb-lg-5 text-center'>
             <h1 className='explore_blogs_title'>Explore Our Blogs</h1>
             <p className='explore_blogs_paragraph'>Read our Insightful blogs posted everyday</p>
           </div>

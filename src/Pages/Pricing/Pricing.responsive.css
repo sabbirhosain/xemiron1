@@ -1,29 +1,24 @@
-@media only screen and (min-width:1200px) and (max-width:1399px) {
+/* ====================== 
+Mobile Screen Responsive
+==========================*/
+@media only screen and (max-width: 480px) {
   .price_title {
-    font-size: 44px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+    text-align: center;
   }
 
   .price_paragraph {
     font-size: 16px;
-  }
-
-  .price_card_box {
-    min-height: 470px;
-  }
-
-  .price_card_title {
-    font-size: 22px;
-  }
-
-  .price_card_rate {
-    font-size: 66px;
-  }
-
-  .price_feture {
-    font-size: 16px;
-  }
-
-  .price_btn {
-    padding: 14px 28px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.30000001192092896px;
+    text-align: center;
   }
 }
+
+
+
+/* @media only screen and (min-width:1200px) and (max-width:1399px) {} */
