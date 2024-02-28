@@ -8,7 +8,7 @@
   margin: 50px 0px;
 }
 
-.frequently_title {
+.frequently_ask_title {
   color: var(--SecondaryColor);
   font-size: 48px;
   font-weight: 600;
@@ -19,7 +19,7 @@
   text-align: center;
 }
 
-.frequently_pragraph {
+.frequently_ask_pragraph {
   color: var(--ParagraphColor);
   font-size: 18px;
   font-weight: 400;

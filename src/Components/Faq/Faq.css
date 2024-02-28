@@ -51,3 +51,38 @@
   background: #FFF;
   box-shadow: 0px 20px 95px 0px rgba(201, 203, 204, 0.30);
 }
+
+@media only screen and (max-width: 480px) {
+  .accordion-button {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.30000001192092896px;
+    text-align: left;
+    padding: 20px 24px;
+  }
+
+  .accordion-button:not(.collapsed) {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.30000001192092896px;
+    text-align: left;
+  }
+
+  .frequently_text_box {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    border: 1px solid #F3F4FE;
+    background: #FFF;
+    box-shadow: 0px 20px 95px 0px rgba(201, 203, 204, 0.30);
+  }
+}

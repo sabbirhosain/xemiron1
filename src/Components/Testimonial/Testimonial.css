@@ -14,20 +14,6 @@
   text-align: start;
 }
 
-@media only screen and (min-width:1200px) and (max-width:1399px) {
-  .slick-dots {
-    position: absolute;
-    bottom: -15%;
-    left: 3%;
-    display: block;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: start;
-  }
-}
-
 .slick-dots li button:before {
   font-family: 'slick';
   font-size: 75px;
@@ -51,22 +37,84 @@
 }
 
 .testimonial_btn_left {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: black;
   font-size: 25px;
-  padding: 0px 5px;
   border-radius: 5px;
   background-color: #FFFFFF;
-  display: inline-block;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .testimonial_btn_right {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: black;
   font-size: 25px;
-  padding: 0px 5px;
   border-radius: 5px;
   background-color: #FFFFFF;
-  display: inline-block;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   margin-left: 8%;
+}
+
+@media only screen and (min-width:1200px) and (max-width:1399px) {
+  .slick-dots {
+    position: absolute;
+    bottom: -15%;
+    left: 3%;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: start;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .slick-dots {
+    position: absolute;
+    bottom: -7%;
+    left: 37%;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: start;
+  }
+
+  .testimonial_btn_left {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+
+  .testimonial_btn_right {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 15px;
+    padding: 0px 5px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-left: 0%;
+  }
 }

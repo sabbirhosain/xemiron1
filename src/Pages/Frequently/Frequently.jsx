@@ -19,8 +19,8 @@ const Frequently = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-6">
               <div className='d-flex align-items-center justify-content-center flex-column'>
-                <h1 className="frequently_title">Frequently</h1>
-                <p className='frequently_pragraph'>We have compiled a list of frequently asked questions to help you quickly find the information you need.</p>
+                <h1 className="frequently_ask_title">Frequently</h1>
+                <p className='frequently_ask_pragraph'>We have compiled a list of frequently asked questions to help you quickly find the information you need.</p>
               </div>
             </div>
           </div>

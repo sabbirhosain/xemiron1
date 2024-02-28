@@ -25,7 +25,7 @@ const Testimonial = () => {
 
   const settings = {
     centerMode: true,
-    // centerPadding: "100px",
+    // centerPadding: "90px",
     dots: true,
     infinite: true,
     speed: 500,
@@ -56,7 +56,8 @@ const Testimonial = () => {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          centerMode: false,
         }
       }
     ]
@@ -70,9 +71,9 @@ const Testimonial = () => {
           <TestimonialCard />
         </Slider>
       </div >
-      <div className="mt-5 d-flex align-items-center">
+      <div className="mt-3 mt-md-5 d-flex align-items-center justify-content-evenly justify-content-lg-start">
         <button className="testimonial_btn_left" onClick={() => slider?.current?.slickPrev()}><IoIosArrowBack /></button>
-        
+
         <button className="testimonial_btn_right" onClick={() => slider?.current?.slickNext()}><IoIosArrowForward /></button>
       </div>
     </>

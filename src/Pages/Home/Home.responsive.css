@@ -2,6 +2,9 @@
 Mobile Screen Responsive
 ==========================*/
 @media only screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
 
   .hero_bg_img {
     height: 140vh;
@@ -222,6 +225,194 @@ Mobile Screen Responsive
     line-height: 24px;
     letter-spacing: -0.20000000298023224px;
     text-align: center;
+  }
+
+  /* =========================
+       Hospital Management
+============================*/
+  .hospital_management {
+    margin: 50px 0px;
+    background-color: rgb(245, 245, 245);
+  }
+
+  .hospital_container {
+    height: 100vh;
+    background-color: rgb(245, 245, 245);
+    overflow: unset;
+    padding-left: 0px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .hospital_mini_title {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .hospital_title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    margin-bottom: 0px;
+  }
+
+  .hospital_paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    padding: 10px 0px;
+  }
+
+  .hospital_icon_box {
+    color: var(--PrimaryBtnColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+    border: 1px solid var(--PrimaryBtnColor);
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+
+  .hospital_count {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .hospital_count_title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .hospital_img_box {
+    margin-top: 30px;
+  }
+
+  /* =========================
+      Client Testimonials
+============================*/
+  .client_testimonial {
+    background-color: #DCFCE7;
+    margin-bottom: 50px;
+    padding: 5% 0px;
+  }
+
+  .testimonial_title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+    text-align: left;
+  }
+
+  .testimonial_paragaraph {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .line_brack {
+    display: none;
+  }
+
+  .testimonial_container {
+    padding-left: 0%;
+  }
+
+  /* =========================
+     Frequently
+============================*/
+
+  .frequently {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .frequently_title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+    text-align: left;
+  }
+
+  .frequently_paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    padding: 0px 0px;
+  }
+
+  .frequently_btn {
+    color: white;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 12px 24px;
+    background-color: var(--PrimaryBtnColor);
+    margin-bottom: 20px;
+  }
+
+  /* =========================
+      Explore Blogs
+============================*/
+  .explore_blogs {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .explore_blogs_title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+    text-align: center;
+  }
+
+  .explore_blogs_paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .blogs_more_btn {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 12px 32px;
+    display: block;
+    margin: 10px 0px 0px 0px;
   }
 }
 

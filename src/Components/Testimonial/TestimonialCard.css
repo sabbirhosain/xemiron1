@@ -40,7 +40,7 @@
   height: 25px;
   font-size: 10px;
   border-radius: 50px;
-  background-color: rgb(248, 232, 202);
+  background-color: #FFFAE9;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,4 +53,38 @@
   border-radius: 10px;
   background-color: #DEE5E4;
   margin-left: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+  .testimonial_card {
+    border: 0px;
+    border-radius: 12px;
+    margin: 0px 15px 15px 15px;
+    background-color: white;
+    box-shadow: 0px 1px 2px 0px rgba(45, 54, 67, 0.04), 0px 2px 4px 0px rgba(45, 54, 67, 0.08);
+  }
+
+  .testimonial_name {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .testimonial_country {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+  }
+
+  .testimonial_description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+  }
 }

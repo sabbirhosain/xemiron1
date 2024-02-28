@@ -12,7 +12,7 @@ const VBlogsCard = () => {
             <h5 className="blogs_card_title mt-3">Advanced Python Web Development</h5>
             <p className="blogs_card_paragraph">Introduction: Welcome to the Advanced Python Web Development tutorial series...</p>
           </div>
-          <Link to={"/blog-details/123"} className="blogs_card_btn">Read More &ensp;<MdArrowOutward /></Link>
+          <Link to={"/blog-details/123"} className="vblogs_card_btn">Read More &ensp;<MdArrowOutward /></Link>
         </div>
       </div>
     </>
