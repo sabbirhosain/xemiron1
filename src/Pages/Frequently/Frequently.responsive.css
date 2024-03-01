@@ -1,0 +1,62 @@
+/* ====================== 
+Mobile Screen Responsive
+==========================*/
+@media only screen and (max-width: 480px) {
+  .frequently_breadcrum {
+    display: none;
+  }
+
+  .frequently_ask_title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+  }
+
+  .frequently_ask_pragraph {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    padding: 0px 0px 30px 0px;
+  }
+
+  .frequently_contact_from {
+    padding: 0px 0px;
+  }
+
+  .frequently_contact_title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+  }
+
+  .frequently_contact_paragraph {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    padding: 20px 0px 30px 0px;
+  }
+
+  .form-check-label {
+    font-size: 16px;
+  }
+
+  .frequently_submit_btn {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    padding: 12px 32px;
+  }
+}

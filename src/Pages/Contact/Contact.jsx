@@ -7,7 +7,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { LuClock3 } from "react-icons/lu";
 import { LuPhone } from "react-icons/lu";
 import "./Contact.css"
-
+import "./Contact.responsive.css"
 import InnerLayout from '../../Layout/InnerLayout';
 import Promise from '../../Components/Promise/Promise';
 
@@ -39,8 +39,8 @@ const Contact = () => {
               <div className="contact_box">
                 <div className="contact_box_body">
 
-                  <div className="col-6">
-                    <div className='location_box mb-4'>
+                  <div className="col-md-6">
+                    <div className='location_box mb-2 mb-md-4'>
                       <div className='location_icon_box'><IoLocationOutline className='location_icon' /></div>
                       <div className='location_map'>
                         <h6 className='location_name '>Rajshahi, Bangladesh</h6>
@@ -49,8 +49,8 @@ const Contact = () => {
                     </div>
                   </div>
 
-                  <div className="col-6">
-                    <div className='location_box mb-4'>
+                  <div className="col-md-6">
+                    <div className='location_box mb-2 mb-md-4'>
                       <div className='location_icon_box'><LuClock3 className='location_icon' /></div>
                       <div className='location_map'>
                         <h6 className='location_name m-0'>Available 24/7</h6>
@@ -58,8 +58,8 @@ const Contact = () => {
                     </div>
                   </div>
 
-                  <div className="col-6">
-                    <div className='location_box'>
+                  <div className="col-md-6">
+                    <div className='location_box mb-2 mb-md-0'>
                       <div className='location_icon_box'><FaRegEnvelopeOpen className='location_icon' /></div>
                       <div className='location_map'>
                         <Link to={""} className='contact_email'>toufic064@gmail.com</Link>
@@ -67,7 +67,7 @@ const Contact = () => {
                     </div>
                   </div>
 
-                  <div className="col-6">
+                  <div className="col-md-6">
                     <div className='location_box'>
                       <div className='location_icon_box'><LuPhone className='location_icon' /></div>
                       <div className='location_map'>
@@ -78,7 +78,7 @@ const Contact = () => {
 
                 </div>
               </div>
-              <div className="follow_us">
+              <div className="follow_us d-none d-md-block">
                 <h4 className='follow_us_text'>Follow Us</h4>
 
                 <div className="social_follow_box">
@@ -126,7 +126,7 @@ const Contact = () => {
                     <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                   </div>
                   <button type="button" className="form_submit_btn">Submit Now</button>
-                  <h6 className='py-4 text-center'>or</h6>
+                  <h6 className='py-3 py-md-4 text-center'>or</h6>
                   <Link to={"#"} className="form_whatsapp_btn">WhatsApp Now &emsp;<img src={whatsapp} alt="" width={"25px"} /></Link>
                 </form>
               </div>

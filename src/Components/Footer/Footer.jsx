@@ -8,6 +8,9 @@ import { Link } from "react-router-dom";
 import SayHello from "../SayHello/SayHello";
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth', })
+  };
   return (
     <>
       <section className="say_hello">
@@ -67,7 +70,7 @@ const Footer = () => {
                     <h5 className="navigation_title">Legal</h5>
                     <ul>
                       <li><Link to={""} className="footer_link">Refund Policy</Link></li>
-                      <li><Link to={"/frequently"} className="footer_link">Terms and Conditions</Link></li>
+                      <li><Link to={"/frequently"} onClick={scrollToTop} className="footer_link">Terms and Conditions</Link></li>
                       <li><Link to={""} className="footer_link">Cookie Policy</Link></li>
                       <li><Link to={""} className="footer_link">Privacy Policy</Link></li>
                     </ul>

@@ -1,0 +1,179 @@
+/* ====================== 
+Mobile Screen Responsive
+==========================*/
+@media only screen and (max-width: 480px) {
+  .blogs_details_breadcrumb {
+    display: none;
+  }
+
+  /* ====>> Blogs Detais Banner <<==== */
+  .blogs_details_banner {
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%), url(../../assets/blog-details/blogs-details-bg.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .blogs_details_sm_title {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .blogs_details_title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+  }
+
+  /* ====>> Blogs Description <<==== */
+  .blogs_description {
+    margin: 50px 0px 30px 0px;
+  }
+
+  .blogs_desc_title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.3px;
+  }
+
+  .blogs_desc_paragraph {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+  }
+
+  .blogs_highlight_paragraph {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    margin: 30px 0;
+  }
+
+  .blogs_description_img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .blogs_img_caption {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    padding: 0px 5px;
+    margin: 10px 0px;
+    border-left: 2px solid #223039;
+  }
+
+  /* ===>> Blogs Comments <<==== */
+  .comment_counts {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+    padding-bottom: 30px;
+  }
+
+  .user_icon_box {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: rgba(244, 255, 225, 1);
+    margin-right: 10px;
+  }
+
+  .blogs_user_icon {
+    color: var(--PrimaryColor);
+    font-size: 15px;
+  }
+
+  .blogs_user_name {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .blogs_comments_textarea {
+    width: 100%;
+    height: 150px;
+    border: 1px solid rgba(234, 236, 240, 1);
+    border-radius: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .comment_submit_btn {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    padding: 8px 16px;
+  }
+
+  .massage_user_icon_box {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: rgba(244, 255, 225, 1);
+    margin-right: 10px;
+  }
+
+  .massage_blogs_user_icon {
+    color: var(--PrimaryColor);
+    font-size: 22px;
+  }
+
+  .massage_name {
+    color: var(--seconderyColor);
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .massage_paragraph {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .massage_acction_icon {
+    font-size: 14px;
+  }
+
+  /* ====>> Shear Blogs <<==== */
+  .shear_blogs {
+    margin: 50px 0px;
+  }
+
+  .blogs_tag_link {
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+}

@@ -5,7 +5,7 @@ import map from "../../assets/map.png"
 import Promise from '../../Components/Promise/Promise'
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 import "./About.css"
-// import "./About.responsive.css"
+import "./About.responsive.css"
 import InnerLayout from '../../Layout/InnerLayout'
 
 const About = () => {
@@ -44,10 +44,10 @@ const About = () => {
 
               <p className="about_xemiron_paragraph">Lots of love and we want to be part of the success of your business.</p>
 
-              <p className="about_xemiron_paragraph">Regards</p>
-              <p className="about_xemiron_paragraph"><strong>Toufic Ahammed</strong></p>
-              <p className="about_xemiron_paragraph">CEO Founder</p>
-              <p className="about_xemiron_paragraph">Xemiron IT Solutions</p>
+              <p className="about_xemiron_paragraph m-0">Regards</p>
+              <p className="about_xemiron_paragraph m-0"><strong>Toufic Ahammed</strong></p>
+              <p className="about_xemiron_paragraph m-0">CEO Founder</p>
+              <p className="about_xemiron_paragraph m-0">Xemiron IT Solutions</p>
 
             </div>
           </div>
@@ -79,7 +79,7 @@ const About = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className='d-flex align-items-center justify-content-end'>
+              <div className='d-flex align-items-center justify-content-center justify-content-lg-end'>
                 <div className="counter_box">
                   <h1 className='client_across_counter'><CounterUp start={0} end={16} duration={5} />+</h1>
                   <h6 className='client_across_count_title'>Countries</h6>

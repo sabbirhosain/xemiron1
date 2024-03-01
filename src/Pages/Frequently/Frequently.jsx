@@ -2,8 +2,9 @@ import { Link } from 'react-router-dom'
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 import Faq from '../../Components/Faq/Faq'
 import { GoQuestion } from "react-icons/go";
-import "./Frequently.css"
 import InnerLayout from '../../Layout/InnerLayout'
+import "./Frequently.css"
+import "./Frequently.responsive.css"
 
 const Frequently = () => {
   return (

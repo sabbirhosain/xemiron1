@@ -16,7 +16,7 @@ const DateCalendar = () => {
 
   return (
     <>
-      <Calendar prevLabel={"<-"} nextLabel={"->"} prev2Label={false} next2Label={false} onChange={selectDate} value={date} />
+      <Calendar prevLabel={"<"} nextLabel={">"} prev2Label={false} next2Label={false} onChange={selectDate} value={date} />
       {
         console.log(date.toString())
       }
