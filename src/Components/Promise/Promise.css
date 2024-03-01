@@ -47,7 +47,7 @@ Mobile Screen Responsive
 @media only screen and (max-width: 480px) {
   .promise_bg_img {
     width: 100%;
-    height: 40vh;
+    height: 50vh;
   }
 
   .promise_title {
